@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import articlesData from '@/data/articles.json';
+// 1. IMPORTIAMO IL TUO WIDGET ESISTENTE
+import FlightWidget from '@/components/FlightWidget';
 
 // --- DEFINIZIONE DEI TIPI ---
 
@@ -12,10 +14,10 @@ interface Widget {
   type: string;
   label: string;
   url: string;
-  image?: string;     // Opzionale (solo per banner)
-  subtitle?: string;  // Opzionale (solo per button)
-  icon?: string;      // Opzionale (solo per button)
-  colorClass?: string; // Opzionale
+  image?: string;     
+  subtitle?: string;  
+  icon?: string;      
+  colorClass?: string; 
 }
 
 interface Section {
@@ -37,30 +39,11 @@ interface Article {
   sections: Section[];
 }
 
-// Forziamo il tipo del JSON importato
 const articles = articlesData as unknown as Article[];
 
-// --- WIDGET COMPONENTS ---
+// --- WIDGET COMPONENTS HELPERS (Solo quelli statici) ---
 
-// 1. Widget Script (Per Kiwi.com)
-const ScriptWidget = ({ url }: { url: string }) => {
-  const containerRef = React.useRef<HTMLDivElement>(null);
-
-  React.useEffect(() => {
-    if (containerRef.current) {
-      containerRef.current.innerHTML = '';
-      const script = document.createElement('script');
-      script.src = url;
-      script.async = true;
-      script.charset = 'utf-8';
-      containerRef.current.appendChild(script);
-    }
-  }, [url]);
-
-  return <div ref={containerRef} className="my-8 min-h-[200px] bg-gray-50 rounded-xl overflow-hidden" />;
-};
-
-// 2. Widget Banner (Per Expedia, Tiqets, Omio)
+// 2. Banner Widget (Statico - OK sul Server)
 const BannerWidget = ({ label, url, image }: { label: string; url: string; image?: string }) => {
   return (
     <div className="my-10 group">
@@ -91,7 +74,7 @@ const BannerWidget = ({ label, url, image }: { label: string; url: string; image
   );
 };
 
-// 3. Widget Bottone (Per PDF Download e CTA)
+// 3. Button Widget (Statico - OK sul Server)
 const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label: string; subtitle?: string; url: string; icon?: string; colorClass?: string }) => {
   const isExternal = url.startsWith('http');
   const isPdf = url.endsWith('.pdf');
@@ -117,13 +100,18 @@ const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label: strin
   );
 };
 
-// Motore Widget
+// --- MOTORE WIDGET AGGIORNATO ---
 const WidgetRenderer = ({ widget }: { widget?: Widget | null }) => {
   if (!widget) return null;
 
   switch (widget.type) {
     case 'script':
-      return <ScriptWidget url={widget.url} />;
+      // 3. QUI USIAMO FLIGHTWIDGET COME NELLE CITTÀ
+      return (
+        <div className="my-8 min-h-[200px] bg-gray-50 rounded-xl overflow-hidden">
+             <FlightWidget src={widget.url} />
+        </div>
+      );
     case 'banner':
       return <BannerWidget label={widget.label} url={widget.url} image={widget.image} />;
     case 'button':
@@ -142,14 +130,11 @@ export async function generateStaticParams() {
 
 // --- MAIN PAGE COMPONENT ---
 
-// MODIFICA CRITICA: Params è ora una Promise
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-// MODIFICA CRITICA: Componente async
 export default async function ArticlePage({ params }: Props) {
-  // MODIFICA CRITICA: Await dei params
   const { slug } = await params;
   
   const article = articles.find((a) => a.slug === slug);
