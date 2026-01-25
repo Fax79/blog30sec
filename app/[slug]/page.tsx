@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import articlesData from '@/data/articles.json';
-// 1. IMPORTIAMO IL TUO WIDGET ESISTENTE
+// Importiamo il Widget FlightWidget che funziona già
 import FlightWidget from '@/components/FlightWidget';
 
 // --- DEFINIZIONE DEI TIPI ---
@@ -41,9 +41,42 @@ interface Article {
 
 const articles = articlesData as unknown as Article[];
 
-// --- WIDGET COMPONENTS HELPERS (Solo quelli statici) ---
+// --- FUNZIONE PER PULIRE IL TESTO (Via gli asterischi!) ---
+const BasicMarkdown = ({ content }: { content: string }) => {
+  if (!content) return null;
+  
+  const lines = content.split('\n');
 
-// 2. Banner Widget (Statico - OK sul Server)
+  return (
+    <div className="space-y-4 text-gray-600 leading-relaxed">
+      {lines.map((line, index) => {
+        if (!line.trim()) return null;
+
+        const isList = line.trim().startsWith('* ');
+        const cleanText = isList ? line.trim().substring(2) : line;
+
+        const parts = cleanText.split('**');
+        const formattedText = parts.map((part, i) => 
+          i % 2 === 1 ? <strong key={i} className="font-bold text-gray-900">{part}</strong> : part
+        );
+
+        if (isList) {
+          return (
+            <div key={index} className="flex items-start pl-4">
+              <span className="mr-3 text-orange-500 font-bold">•</span>
+              <span>{formattedText}</span>
+            </div>
+          );
+        }
+
+        return <p key={index}>{formattedText}</p>;
+      })}
+    </div>
+  );
+};
+
+// --- WIDGET COMPONENTS HELPERS ---
+
 const BannerWidget = ({ label, url, image }: { label: string; url: string; image?: string }) => {
   return (
     <div className="my-10 group">
@@ -74,7 +107,6 @@ const BannerWidget = ({ label, url, image }: { label: string; url: string; image
   );
 };
 
-// 3. Button Widget (Statico - OK sul Server)
 const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label: string; subtitle?: string; url: string; icon?: string; colorClass?: string }) => {
   const isExternal = url.startsWith('http');
   const isPdf = url.endsWith('.pdf');
@@ -100,13 +132,11 @@ const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label: strin
   );
 };
 
-// --- MOTORE WIDGET AGGIORNATO ---
 const WidgetRenderer = ({ widget }: { widget?: Widget | null }) => {
   if (!widget) return null;
 
   switch (widget.type) {
     case 'script':
-      // 3. QUI USIAMO FLIGHTWIDGET COME NELLE CITTÀ
       return (
         <div className="my-8 min-h-[200px] bg-gray-50 rounded-xl overflow-hidden">
              <FlightWidget src={widget.url} />
@@ -121,7 +151,6 @@ const WidgetRenderer = ({ widget }: { widget?: Widget | null }) => {
   }
 };
 
-// Generazione Parametri Statici
 export async function generateStaticParams() {
   return articles.map((article) => ({
     slug: article.slug,
@@ -136,7 +165,6 @@ type Props = {
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params;
-  
   const article = articles.find((a) => a.slug === slug);
 
   if (!article) {
@@ -146,7 +174,7 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <article className="min-h-screen bg-white font-sans pb-20">
       
-      {/* HEADER IMMAGINE */}
+      {/* HEADER */}
       <div className="relative h-[60vh] min-h-[400px] w-full">
         <Image 
           src={article.hero_image} 
@@ -158,7 +186,8 @@ export default async function ArticlePage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
         
         <div className="absolute bottom-0 left-0 w-full p-6 md:p-12 max-w-4xl mx-auto">
-          <Link href="/blog" className="inline-flex items-center text-white/80 hover:text-white mb-6 text-sm font-bold uppercase tracking-widest transition-colors">
+          {/* LINK CORRETTO: punta alla root / */}
+          <Link href="/" className="inline-flex items-center text-white/80 hover:text-white mb-6 text-sm font-bold uppercase tracking-widest transition-colors">
             ← Torna al Blog
           </Link>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
@@ -175,7 +204,7 @@ export default async function ArticlePage({ params }: Props) {
         </div>
       </div>
 
-      {/* CONTENUTO ARTICOLO */}
+      {/* CONTENUTO */}
       <div className="max-w-3xl mx-auto px-5 -mt-10 relative z-10">
         <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100">
           
@@ -190,9 +219,8 @@ export default async function ArticlePage({ params }: Props) {
                   {section.title}
                 </h2>
                 
-                <div className="text-gray-600 leading-relaxed whitespace-pre-line mb-8">
-                  {section.content}
-                </div>
+                {/* QUI USIAMO IL NOSTRO PULITORE DI TESTO */}
+                <BasicMarkdown content={section.content} />
 
                 <WidgetRenderer widget={section.widget} />
                 
@@ -207,7 +235,8 @@ export default async function ArticlePage({ params }: Props) {
       </div>
       
       <div className="max-w-3xl mx-auto mt-12 text-center">
-        <Link href="/blog" className="text-orange-600 font-bold hover:underline">
+        {/* LINK CORRETTO: punta alla root / */}
+        <Link href="/" className="text-orange-600 font-bold hover:underline">
           Vedi tutti gli altri articoli
         </Link>
       </div>
