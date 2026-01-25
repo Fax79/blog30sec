@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import articles from '../data/articles.json';
+import articles from '@/data/articles.json';
 
 export const metadata = {
   title: 'Blog - 30SecondsToGuide',
