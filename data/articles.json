@@ -140,7 +140,7 @@
     "sections": [
       {
         "title": "La Sfida: 7.000€ basteranno?",
-        "content": "Ho chiesto al nostro Itinerary Wizard di creare un piano 'Zero Stress' per 10 giorni tra Tokyo e Kyoto durante la fioritura dei ciliegi (fine Marzo 2026).\n\nIl verdetto economico dell'AI mi ha gelato: **7.000€**.\nLo stato del budget è definito nel documento solo come *'Sufficiente ma richiede attenta gestione'*.\n\nNon si tratta solo di costi vivi. L'AI ha inserito una nota critica nel Capitolo 1: *'Viaggiare con un bambino richiede un'attenzione particolare... Una buona assicurazione è indispensabile'*. Se devo annullare un viaggio simile per una febbre improvvisa, senza copertura perdo un capitale.",
+        "content": "Ho chiesto al nostro Itinerary Wizard di creare un piano 'Zero Stress' per 10 giorni tra Tokyo e Kyoto durante la fioritura dei ciliegi (fine Marzo 2026).\n\nIl verdetto economico dell'AI mi ha gelato: **7.000€**.\nLo stato del budget è definito nel documento solo come **'Sufficiente ma richiede attenta gestione'**.\n\nNon si tratta solo di costi vivi. L'AI ha inserito una nota critica nel Capitolo 1: **'Viaggiare con un bambino richiede un'attenzione particolare... Una buona assicurazione è indispensabile'**. Se devo annullare un viaggio simile per una febbre improvvisa, senza copertura perdo un capitale.",
         "widget": {
           "type": "button",
           "label": "Scarica il PDF originale del Travel Plan",
@@ -152,7 +152,7 @@
       },
       {
         "title": "La precisione sanitaria: L'AI fa i nomi",
-        "content": "Qui il Wizard mi ha stupito. Non ha detto 'cercate un ospedale'. Ha mappato le strutture pediatriche quartiere per quartiere:\n\n* **A Tokyo (zona Chuo):** Il *St. Luke's International Hospital*, abituato ai turisti.\n* **A Kyoto:** Il *Kyoto University Hospital* come riferimento per le emergenze.\n\nSapere esattamente dove andare in caso di emergenza con un bimbo di 3 anni non ha prezzo. Ma attenzione: la sanità giapponese per gli stranieri è carissima. Una semplice visita può costare centinaia di euro. Ecco perché ho seguito il consiglio del PDF immediatamente.",
+        "content": "Qui il Wizard mi ha stupito. Non ha detto 'cercate un ospedale'. Ha mappato le strutture pediatriche quartiere per quartiere:\n\n* **A Tokyo (zona Chuo):** Il **St. Luke's International Hospital**, abituato ai turisti.\n* **A Kyoto:** Il **Kyoto University Hospital** come riferimento per le emergenze.\n\nSapere esattamente dove andare in caso di emergenza con un bimbo di 3 anni non ha prezzo. Ma attenzione: la sanità giapponese per gli stranieri è carissima. Una semplice visita può costare centinaia di euro. Ecco perché ho seguito il consiglio del PDF immediatamente.",
         "widget": {
           "type": "banner",
           "label": "Proteggi il tuo viaggio in Giappone (-10% Sconto)",
@@ -182,7 +182,7 @@
       },
       {
         "title": "Verdetto Finale",
-        "content": "L'AI ha impiegato **57 secondi** per creare un piano che io avrei impiegato settimane a studiare. Ha bilanciato il sogno dei ciliegi con la dura realtà dei costi e della sicurezza pediatrica.\n\nIl Giappone con un bimbo di 3 anni è fattibile? Sì.\nÈ economico? No.\nÈ rischioso senza assicurazione? Moltissimo.",
+        "content": "L'AI ha impiegato **57 secondi** per creare un piano che io avrei impiegato settimane a studiare. Ha bilanciato il sogno dei ciliegi con la dura realtà dei costi e della sicurezza pediatrica.\n\nIl Giappone con un bimbo di 3 anni è fattibile? **Sì**.\nÈ economico? **No**.\nÈ rischioso senza assicurazione? **Moltissimo**.",
         "widget": {
           "type": "button",
           "label": "CREA IL TUO ITINERARIO GIAPPONE ➜",
