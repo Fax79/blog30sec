@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import articlesData from '../../data/articles.json';
+import articlesData from '@/data/articles.json';
 
 // --- DEFINIZIONE DEI TIPI (Per togliere il rosso) ---
 
