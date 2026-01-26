@@ -207,7 +207,7 @@
   "sections": [
     {
       "title": "Il Reality Check: 2.500€ bastano?",
-      [cite_start]"content": "Avevamo impostato un budget target di 2.500€ per due persone[cite: 5, 128]. [cite_start]L'AI è stata spietatamente onesta e ha stimato un totale reale di **3.500€**[cite: 127].\n\nPerché questa differenza di 1.000€? [cite_start]Il Travel Plan parla chiaro: il budget iniziale è 'sufficiente' ma richiede scelte oculate[cite: 22, 128]. [cite_start]Se vogliamo voli comodi (stimati a 750€ [cite: 121][cite_start]) e non vogliamo rinunciare alla qualità, dobbiamo prenotare con largo anticipo[cite: 26, 43].\n\nEcco i prezzi dei voli in tempo reale per le date della Festa dei Fiori (Maggio 2026):",
+      "content": "Avevamo impostato un budget target di 2.500€ per due persone. L'AI è stata spietatamente onesta e ha stimato un totale reale di **3.500€**.\n\nPerché questa differenza di 1.000€? Il Travel Plan parla chiaro: il budget iniziale è 'sufficiente' ma richiede scelte oculate. Se vogliamo voli comodi (stimati a 750€) e non vogliamo rinunciare alla qualità, dobbiamo prenotare con largo anticipo.\n\nEcco i prezzi dei voli in tempo reale per le date della Festa dei Fiori (Maggio 2026):",
       "widget": {
         "type": "script",
         "label": "Verifica prezzi voli Madeira",
@@ -216,7 +216,7 @@
     },
     {
       "title": "La Strategia 'Base Fissa'",
-      "content": "Per chi cerca relax, cambiare hotel ogni notte è un incubo. [cite_start]L'AI ha capito perfettamente l'esigenza: la strategia ottimale è scegliere un hotel di categoria superiore a Funchal per disfare i bagagli una sola volta [cite: 36, 37, 147][cite_start].\n\nIl piano suggerisce strutture come l'**Hotel Porto Santa Maria** (solo adulti [cite: 39][cite_start]) o il **The Cliff Bay** (5 stelle [cite: 42]). [cite_start]Rimanere a Funchal permette di godersi la piscina dopo le escursioni e uscire a cena a piedi nel centro storico [cite: 38, 51, 86][cite_start].\n\nAttenzione ai costi: una camera doppia vista mare in un 4 stelle è stimata tra i 180€ e i 250€ a notte[cite: 44, 122].",
+      "content": "Per chi cerca relax, cambiare hotel ogni notte è un incubo. L'AI ha capito perfettamente l'esigenza: la strategia ottimale è scegliere un hotel di categoria superiore a Funchal per disfare i bagagli una sola volta.\n\nIl piano suggerisce strutture come l'**Hotel Porto Santa Maria** (solo adulti) o il **The Cliff Bay** (5 stelle). Rimanere a Funchal permette di godersi la piscina dopo le escursioni e uscire a cena a piedi nel centro storico.\n\nAttenzione ai costi: una camera doppia vista mare in un 4 stelle è stimata tra i 180€ e i 250€ a notte.",
       "widget": {
         "type": "banner",
         "label": "Cerca Hotel Funchal Vista Oceano",
@@ -226,7 +226,7 @@
     },
     {
       "title": "Guidare a Madeira: Il consiglio salvavita",
-      "content": "Madeira è un'isola verticale. [cite_start]Le strade sono panoramiche ma possono essere ripide e tortuose [cite: 137][cite_start].\n\nQui l'AI ci dà il consiglio più importante per la sicurezza (e per la sanità mentale del guidatore): il **cambio automatico è indispensabile** [cite: 50, 138][cite_start].\n\nIl noleggio per 7 giorni è stimato intorno ai 300€[cite: 123]. Risparmiare prendendo un manuale significa rischiare di bruciare la frizione sulle salite di Funchal. Meglio non rischiare.",
+      "content": "Madeira è un'isola verticale. Le strade sono panoramiche ma possono essere ripide e tortuose.\n\nQui l'AI ci dà il consiglio più importante per la sicurezza (e per la sanità mentale del guidatore): il **cambio automatico è indispensabile**.\n\nIl noleggio per 7 giorni è stimato intorno ai 300€. Risparmiare prendendo un manuale significa rischiare di bruciare la frizione sulle salite di Funchal. Meglio non rischiare.",
       "widget": {
         "type": "script",
         "label": "Noleggio Auto Cambio Automatico",
@@ -235,7 +235,7 @@
     },
     {
       "title": "Natura senza Fatica (Levadas e Funivie)",
-      "content": "Come si vedono i panorami senza fare 20km di trekking? L'itinerario ha selezionato solo attività 'Soft' adatte a tutti:\n\n1. [cite_start]**Monte Palace:** Si sale comodamente con la *Teleférico do Funchal* godendosi il panorama senza fatica[cite: 54, 55].\n2. [cite_start]**Levada dos Balcões:** L'AI l'ha scelta specificamente perché è 'estremamente pianeggiante e accessibile'[cite: 67].\n3. [cite_start]**Piscine di Porto Moniz:** Un bagno nell'oceano ma protetti dalla roccia lavica[cite: 80].",
+      "content": "Come si vedono i panorami senza fare 20km di trekking? L'itinerario ha selezionato solo attività 'Soft' adatte a tutti:\n\n1.  **Monte Palace:** Si sale comodamente con la *Teleférico do Funchal* godendosi il panorama senza fatica.\n2.  **Levada dos Balcões:** L'AI l'ha scelta specificamente perché è 'estremamente pianeggiante e accessibile'.\n3.  **Piscine di Porto Moniz:** Un bagno nell'oceano ma protetti dalla roccia lavica.",
       "widget": {
         "type": "banner",
         "label": "Biglietti Attrazioni Madeira",
@@ -245,7 +245,7 @@
     },
     {
       "title": "Conclusione",
-      "content": "Madeira non è solo per giovani escursionisti. [cite_start]È un'isola di classe, fiori e tramonti oceanici [cite: 143, 150][cite_start].\nL'AI ci ha messo pochissimo a pianificare un viaggio che bilancia 'esplorazione e relax' [cite: 48, 143][cite_start], ma ci ha anche avvisato: la qualità ha un prezzo e il budget deve essere gestito con attenzione[cite: 128, 149].\n\nScarica il PDF completo qui sotto per i dettagli giorno per giorno.",
+      "content": "Madeira non è solo per giovani escursionisti. È un'isola di classe, fiori e tramonti oceanici.\nL'AI ci ha messo pochissimo a pianificare un viaggio che bilancia 'esplorazione e relax', ma ci ha anche avvisato: la qualità ha un prezzo e il budget deve essere gestito con attenzione.\n\nScarica il PDF completo qui sotto per i dettagli giorno per giorno.",
       "widget": {
         "type": "button",
         "label": "Scarica il Travel Plan Madeira PDF",
