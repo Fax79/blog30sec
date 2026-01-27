@@ -270,7 +270,7 @@
   "sections": [
     {
       "title": "Un Budget che (una volta tanto) avanza",
-      "content": "Per il suo viaggio a Singapore, l'AI definisce il budget di 2.000€ come 'Più che adeguato'[cite: 184, 201]. Dopo aver coperto l'alloggio (stimato in 900€), trasporti e cibo, il piano stima un margine residuo di ben 680€ per shopping ed extra[cite: 308, 314, 316]. Una notizia splendida per chi vuole godersi la città senza stress finanziario.\n\nControlla i voli per Novembre 2026:",
+      "content": "Per il suo viaggio a Singapore, l'AI definisce il budget di 2.000€ come 'Più che adeguato'. Dopo aver coperto l'alloggio (stimato in 900€), trasporti e cibo, il piano stima un margine residuo di ben 680€ per shopping ed extra. Una notizia splendida per chi vuole godersi la città senza stress finanziario.\n\nControlla i voli per Novembre 2026:",
       "widget": {
         "type": "script",
         "label": "Verifica prezzi voli Singapore",
@@ -279,7 +279,7 @@
     },
     {
       "title": "Sicurezza al primo posto: Dove dormire",
-      "content": "La scelta dell'alloggio è mirata a garantire sicurezza e centralità[cite: 218]. L'AI suggerisce l'area di Bugis per l'eccellente connettività tramite MRT[cite: 219]. La struttura consigliata è l'Hotel G Singapore, noto per l'attenzione verso chi viaggia in solitaria, con reception h24 e camere funzionali[cite: 220, 223, 226].",
+      "content": "La scelta dell'alloggio è mirata a garantire sicurezza e centralità. L'AI suggerisce l'area di Bugis per l'eccellente connettività tramite MRT. La struttura consigliata è l'Hotel G Singapore, noto per l'attenzione verso chi viaggia in solitaria, con reception h24 e camere funzionali.",
       "widget": {
         "type": "banner",
         "label": "Hotel G e altre opzioni sicure a Singapore",
@@ -289,7 +289,7 @@
     },
     {
       "title": "Cibo Stellato a pochi Euro",
-      "content": "Singapore è un paradiso culinario sicuro grazie alla cultura degli hawker centres[cite: 278, 279]. Puliti, organizzati ed economici, offrono piatti iconici come l'Hainanese Chicken Rice o il Laksa[cite: 280, 282, 283]. Dal Lau Pa Sat al Maxwell Food Centre, ogni pasto è un'avventura protetta e di qualità[cite: 291, 292].",
+      "content": "Singapore è un paradiso culinario sicuro grazie alla cultura degli hawker centres. Puliti, organizzati ed economici, offrono piatti iconici come l'Hainanese Chicken Rice o il Laksa. Dal Lau Pa Sat al Maxwell Food Centre, ogni pasto è un'avventura protetta e di qualità.",
       "widget": {
         "type": "banner",
         "label": "Scopri i migliori Hawker Centres su TripAdvisor",
@@ -299,7 +299,7 @@
     },
     {
       "title": "Esplorazione Futuristica",
-      "content": "L'itinerario bilancia modernità e cultura: dai Gardens by the Bay (Cloud Forest e Flower Dome) allo spettacolo Spectra, fino ai quartieri etnici di Little India e Kampong Glam[cite: 238, 240, 245, 249]. Il tutto muovendosi con la MRT, il sistema di trasporto più sicuro ed efficiente della città[cite: 233, 329].",
+      "content": "L'itinerario bilancia modernità e cultura: dai Gardens by the Bay (Cloud Forest e Flower Dome) allo spettacolo Spectra, fino ai quartieri etnici di Little India e Kampong Glam. Il tutto muovendosi con la MRT, il sistema di trasporto più sicuro ed efficiente della città.",
       "widget": {
         "type": "banner",
         "label": "Biglietti Salta Fila Gardens & Attrazioni",
@@ -309,7 +309,7 @@
     },
     {
       "title": "Verdetto Finale",
-      "content": "Ogni aspetto di questo piano è pensato per massimizzare l'autonomia della viaggiatrice solitaria[cite: 334]. Con una rete di trasporti eccezionale e una sicurezza ai vertici mondiali, Singapore è la 'palestra' perfetta per la tua prima avventura da sola[cite: 325, 336, 337].\n\nScarica il piano dettagliato giorno per giorno.",
+      "content": "Ogni aspetto di questo piano è pensato per massimizzare l'autonomia della viaggiatrice solitaria. Con una rete di trasporti eccezionale e una sicurezza ai vertici mondiali, Singapore è la 'palestra' perfetta per la tua prima avventura da sola.\n\nScarica il piano dettagliato giorno per giorno.",
       "widget": {
         "type": "button",
         "label": "Scarica il Travel Plan Singapore PDF",
@@ -320,5 +320,5 @@
       }
     }
   ]
-}  
+} 
 ]
