@@ -256,5 +256,69 @@
       }
     }
   ]
-}
+},
+{
+  "slug": "singapore-solo-female-travel",
+  "meta_title": "Singapore in solitaria: Meta ideale per donne - 30SecondsToGuide",
+  "meta_description": "Sicurezza totale, cibo stellato a 5€ e un budget che avanza. Scopri l'itinerario dell'AI per una settimana a Singapore da sola.",
+  "hero_image": "/images/singapore-solo-hero.jpg",
+  "hero_title": "SINGAPORE: REGINA DEL SOLO TRAVEL",
+  "intro_text": "Il 'Solo Travel' al femminile spaventa? Non a Singapore. Una città dove la sicurezza è di serie, l'efficienza è la norma e la solitudine diventa un lusso accessibile. Ecco il piano dell'AI.",
+  "author": "Fabio - Tech Traveler",
+  "date": "27 Gennaio 2026",
+  "read_time": "5 min read",
+  "sections": [
+    {
+      "title": "Un Budget che (una volta tanto) avanza",
+      "content": "Per il suo viaggio a Singapore, l'AI definisce il budget di 2.000€ come 'Più che adeguato'[cite: 184, 201]. Dopo aver coperto l'alloggio (stimato in 900€), trasporti e cibo, il piano stima un margine residuo di ben 680€ per shopping ed extra[cite: 308, 314, 316]. Una notizia splendida per chi vuole godersi la città senza stress finanziario.\n\nControlla i voli per Novembre 2026:",
+      "widget": {
+        "type": "script",
+        "label": "Verifica prezzi voli Singapore",
+        "url": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=singapore_sg&departure=2026-11-10&return=2026-11-16&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
+      }
+    },
+    {
+      "title": "Sicurezza al primo posto: Dove dormire",
+      "content": "La scelta dell'alloggio è mirata a garantire sicurezza e centralità[cite: 218]. L'AI suggerisce l'area di Bugis per l'eccellente connettività tramite MRT[cite: 219]. La struttura consigliata è l'Hotel G Singapore, noto per l'attenzione verso chi viaggia in solitaria, con reception h24 e camere funzionali[cite: 220, 223, 226].",
+      "widget": {
+        "type": "banner",
+        "label": "Hotel G e altre opzioni sicure a Singapore",
+        "url": "https://www.expedia.it/Hotel-Search?destination=Singapore%2C%20Singapore&regionId=3168&latLong=1.29027%2C103.85201&flexibility=0_DAY&d1=2026-11-10&startDate=2026-11-10&d2=2026-11-16&endDate=2026-11-16&adults=1&rooms=1&typeaheadCollationId=2998b03d-c8ca-4276-8763-913fa47145bf&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false",
+        "image": "https://images.trvl-media.com/lodging/1000000/330000/328800/328749/1f43d64d.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      }
+    },
+    {
+      "title": "Cibo Stellato a pochi Euro",
+      "content": "Singapore è un paradiso culinario sicuro grazie alla cultura degli hawker centres[cite: 278, 279]. Puliti, organizzati ed economici, offrono piatti iconici come l'Hainanese Chicken Rice o il Laksa[cite: 280, 282, 283]. Dal Lau Pa Sat al Maxwell Food Centre, ogni pasto è un'avventura protetta e di qualità[cite: 291, 292].",
+      "widget": {
+        "type": "banner",
+        "label": "Scopri i migliori Hawker Centres su TripAdvisor",
+        "url": "https://www.tripadvisor.it/Restaurants-g294265-Singapore.html",
+        "image": "/banners/singapore-tripadvisor-banner.jpg"
+      }
+    },
+    {
+      "title": "Esplorazione Futuristica",
+      "content": "L'itinerario bilancia modernità e cultura: dai Gardens by the Bay (Cloud Forest e Flower Dome) allo spettacolo Spectra, fino ai quartieri etnici di Little India e Kampong Glam[cite: 238, 240, 245, 249]. Il tutto muovendosi con la MRT, il sistema di trasporto più sicuro ed efficiente della città[cite: 233, 329].",
+      "widget": {
+        "type": "banner",
+        "label": "Biglietti Salta Fila Gardens & Attrazioni",
+        "url": "https://tiqets.tpx.lt/gBIuj4Ul",
+        "image": "/banners/singapore-tiqets-banner.png"
+      }
+    },
+    {
+      "title": "Verdetto Finale",
+      "content": "Ogni aspetto di questo piano è pensato per massimizzare l'autonomia della viaggiatrice solitaria[cite: 334]. Con una rete di trasporti eccezionale e una sicurezza ai vertici mondiali, Singapore è la 'palestra' perfetta per la tua prima avventura da sola[cite: 325, 336, 337].\n\nScarica il piano dettagliato giorno per giorno.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il Travel Plan Singapore PDF",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Singapore.pdf",
+        "icon": "🦁",
+        "colorClass": "bg-blue-50 text-blue-700 border border-blue-200"
+      }
+    }
+  ]
+}  
 ]
