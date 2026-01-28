@@ -320,5 +320,69 @@
       }
     }
   ]
-} 
+},
+{
+  "slug": "slovenia-pet-friendly-on-the-road",
+  "meta_title": "Slovenia con il cane: Itinerario Pet-Friendly - 30SecondsToGuide",
+  "meta_description": "Volevamo spendere 1.800€ tra i laghi sloveni col cane. L'AI ci ha spiegato che ne servono 2.000. Ecco la guida pratica per non sbagliare.",
+  "hero_image": "/images/slovenia-pet-hero.jpg",
+  "hero_title": "SLOVENIA: IL PARADISO A 4 ZAMPE",
+  "intro_text": "Portare il cane in vacanza non deve essere un'odissea logistica. Abbiamo sfidato l'AI a creare un piano per due adulti e un cane di taglia media in Slovenia. Il risultato? Un viaggio on-the-road tra natura e relax.",
+  "author": "Fabio - Tech Traveler",
+  "date": "28 Gennaio 2026",
+  "read_time": "5 min read",
+  "sections": [
+    {
+      "title": "Il Reality Check sul Budget",
+      "content": "Avevamo impostato un budget di 1.800€, ma l'analisi dell'AI è stata chirurgica: la spesa stimata è di **1.995€**. La voce più pesante? Gli alloggi pet-friendly (780€) e la gestione dell'auto, fondamentale per questo tipo di viaggio. Per restare nel budget, il consiglio è di alternare cene tipiche a picnic nella natura.\n\nEcco lo strumento per gestire il tuo noleggio auto a Lubiana:",
+      "widget": {
+        "type": "script",
+        "label": "Noleggio Auto Lubiana Aeroporto",
+        "url": "https://tpemb.com/content?trs=476244&shmarker=686826&locale=en&default_pick_up_location=LJU&powered_by=true&border_radius=5&plain=true&show_logo=true&color_background=%230b2033&color_button=%23e8b917&promo_id=4362&campaign_id=143"
+      }
+    },
+    {
+      "title": "Basi strategiche: Bled e Lubiana",
+      "content": "Per non stressare il cane con troppi spostamenti, l'itinerario prevede solo due basi: l'area del **Lago di Bled** per i primi tre giorni e la periferia verde di **Lubiana** per il finale. Scegliere strutture con giardino o vicine a parchi come il Tivoli è la chiave per una vacanza serena.",
+      "widget": {
+        "type": "banner",
+        "label": "Cerca Hotel Pet-Friendly in Slovenia",
+        "url": "https://www.expedia.it/Hotel-Search?destination=Lubiana%2C%20Slovenia&regionId=2085&latLong=46.052439%2C14.503603&flexibility=0_DAY&d1=2026-06-12&startDate=2026-06-12&d2=2026-06-18&endDate=2026-06-18&adults=2&rooms=1&typeaheadCollationId=51c3764b-53ef-48db-8ce7-4603e93b03f6&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false&accessibility=SERVICE_ANIMAL",
+        "image": "https://images.trvl-media.com/lodging/3000000/2530000/2528300/2528288/e5d000af.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+      }
+    },
+    {
+      "title": "Gostilne e Sapori Locali",
+      "content": "La cucina slovena è accogliente quanto la sua gente. Molte **Gostilne** (trattorie tipiche) hanno tavoli all'aperto dove i cani sono i benvenuti. Non perdetevi la salsiccia della Carniola o gli struklji, ma ricordate di verificare sempre la politica della struttura prima di accomodarvi.",
+      "widget": {
+        "type": "banner",
+        "label": "Le migliori Gostilne dog-friendly",
+        "url": "https://www.tripadvisor.it/FindRestaurants?geo=274873&cuisines=10720&establishmentTypes=10591&priceTypes=10953&travelersChoice=coe&broadened=false",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f5/87/69/il-locale-esterno.jpg?w=900&h=500&s=1"
+      }
+    },
+    {
+      "title": "Natura senza confini: Vintgar e dintorni",
+      "content": "Dalle **Gole di Vintgar** (accessibili ai cani al guinzaglio) al **Lago di Bohinj**, più selvaggio e tranquillo di Bled. La Slovenia offre sentieri perfettamente tenuti e sicuri. Ricordate di portare sempre acqua fresca e di rispettare le regole locali per godervi il paesaggio in totale libertà.",
+      "widget": {
+        "type": "banner",
+        "label": "Prenota Attrazioni e Ingressi Slovenia",
+        "url": "https://tiqets.tpx.lt/FT3fIrRD",
+        "image": "/banners/lubiana-tiqets-banner.png"
+      }
+    },
+    {
+      "title": "Conclusione e Consigli Pratici",
+      "content": "La Slovenia è la meta definitiva per chi non vuole lasciare a casa il proprio amico a quattro zampe. È un viaggio on-the-road che richiede flessibilità e una buona pianificazione logistica, specialmente per i documenti e le coperture sanitarie.\n\nScarica il PDF completo con la lista dei veterinari e dei ristoranti dog-friendly.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il Travel Plan Slovenia Pet-Friendly",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Slovenia.pdf",
+        "icon": "🐾",
+        "colorClass": "bg-green-50 text-green-700 border border-green-200"
+      }
+    }
+  ]
+}  
 ]
