@@ -1,108 +1,158 @@
-import React from 'react';
+'use client'; // NECESSARIO per far funzionare i click sui filtri
+
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import articles from '@/data/articles.json';
+import articlesData from '@/data/articles.json';
 
-export const metadata = {
-  title: 'Blog - 30SecondsToGuide',
-  description: 'Diari di viaggio, esperimenti con l\'AI e itinerari slow travel.',
-};
+// Definizione del tipo Articolo
+interface Article {
+  slug: string;
+  meta_title: string;
+  meta_description: string;
+  hero_image: string;
+  hero_title: string;
+  date: string;
+  read_time: string;
+  category_label?: string; // Nuovi campi
+  section_label?: string;  // Nuovi campi
+  section?: string;        // ID tecnico (es. real-story)
+  category?: string;       // ID tecnico (es. family-edition)
+}
+
+const allArticles = articlesData as Article[];
 
 export default function BlogHome() {
+  // Stato per il filtro attivo
+  const [activeFilter, setActiveFilter] = useState<string>('all');
+
+  // 1. ESTRAZIONE DINAMICA DELLE CATEGORIE
+  // Cerca tutte le etichette uniche presenti nel JSON
+  const filters = useMemo(() => {
+    const uniqueFilters = new Map();
+    
+    // Aggiungiamo sempre il filtro "Tutti"
+    uniqueFilters.set('all', 'Tutti gli articoli');
+
+    allArticles.forEach(article => {
+      if (article.section_label && article.section) {
+        uniqueFilters.set(article.section, article.section_label);
+      }
+      if (article.category_label && article.category) {
+        uniqueFilters.set(article.category, article.category_label);
+      }
+    });
+
+    return Array.from(uniqueFilters.entries());
+  }, []);
+
+  // 2. LOGICA DI FILTRAGGIO
+  const visibleArticles = useMemo(() => {
+    if (activeFilter === 'all') return allArticles;
+    
+    return allArticles.filter(article => 
+      article.section === activeFilter || article.category === activeFilter
+    );
+  }, [activeFilter]);
+
   return (
-    <main className="min-h-screen bg-gray-50 font-sans">
-      {/* --- HERO SECTION --- */}
-      <div className="relative h-[50vh] min-h-[400px] w-full flex items-center justify-center overflow-hidden">
-        {/* Sfondo Hero: Usiamo l'immagine di Budapest scura come sfondo generale */}
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/images/budapest-hero.jpg" 
-            alt="Travel Blog Hero" 
-            fill 
-            className="object-cover brightness-50"
-            priority
-          />
-        </div>
-        
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <span className="inline-block py-1 px-3 rounded-full bg-orange-500 text-white text-xs font-bold tracking-widest uppercase mb-4">
-            Official Blog
-          </span>
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight">
-            30 Seconds To <span className="text-orange-400">Guide</span>
-          </h1>
-          <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            Non solo algoritmi. Storie di viaggi reali, sfide all'Intelligenza Artificiale e itinerari testati sul campo.
-          </p>
-          
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a href="https://www.30secondstoguide.it" className="px-6 py-3 rounded-full bg-white text-gray-900 font-bold hover:bg-gray-100 transition-colors">
-              Vai al Wizard 🧙‍♂️
-            </a>
-          </div>
+    <div className="min-h-screen bg-gray-50 font-sans">
+      
+      {/* HERO SECTION */}
+      <div className="bg-white pb-12 pt-16 px-6 text-center border-b border-gray-100">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 tracking-tight">
+          30 Seconds To Guide
+        </h1>
+        <p className="text-xl text-gray-500 max-w-2xl mx-auto">
+          Itinerari di viaggio generati dall'AI, testati da umani.
+          <br className="hidden md:block" />
+          Meno tempo a pianificare, più tempo a viaggiare.
+        </p>
+
+        {/* --- BARRA DEI FILTRI (Nuova) --- */}
+        <div className="mt-10 flex flex-wrap justify-center gap-3">
+          {filters.map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setActiveFilter(key)}
+              className={`px-5 py-2 rounded-full text-sm font-bold transition-all transform hover:scale-105 ${
+                activeFilter === key
+                  ? 'bg-orange-600 text-white shadow-lg ring-2 ring-orange-200'
+                  : 'bg-white text-gray-600 border border-gray-200 hover:border-orange-300 hover:text-orange-600'
+              }`}
+            >
+              {label}
+            </button>
+          ))}
         </div>
       </div>
 
-      {/* --- ARTICLES GRID --- */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="flex items-center justify-between mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Ultimi Articoli</h2>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
-          {articles.map((article) => (
+      {/* GRIGLIA ARTICOLI */}
+      <main className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          
+          {visibleArticles.map((article) => (
             <Link 
               href={`/${article.slug}`} 
               key={article.slug}
-              className="group flex flex-col bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 h-full"
+              className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full"
             >
-              {/* Image Container */}
-              <div className="relative h-64 w-full overflow-hidden">
-                <Image 
-                  src={article.hero_image} 
-                  alt={article.hero_title} 
-                  fill 
-                  className="object-cover transform group-hover:scale-105 transition-transform duration-500"
+              {/* Immagine Card */}
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src={article.hero_image}
+                  alt={article.hero_title}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 bg-white/90 backdrop-blur-sm text-gray-900 text-xs font-bold rounded-full shadow-sm">
-                    {article.read_time}
-                  </span>
+                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-widest text-gray-800 shadow-sm">
+                  {article.category_label || article.read_time}
                 </div>
               </div>
 
-              {/* Content Container */}
-              <div className="p-8 flex flex-col flex-grow">
-                <div className="flex items-center text-xs text-gray-500 mb-3 space-x-2">
-                  <span className="font-medium text-orange-600 uppercase tracking-wider">Travel Experiment</span>
-                  <span>•</span>
-                  <span>{article.date}</span>
+              {/* Contenuto Card */}
+              <div className="p-8 flex-1 flex flex-col">
+                <div className="text-orange-600 text-xs font-bold uppercase tracking-widest mb-3">
+                  {article.date}
                 </div>
-                
-                <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors leading-tight">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-orange-600 transition-colors">
                   {article.hero_title}
-                </h3>
-                
-                <p className="text-gray-600 mb-6 line-clamp-3 flex-grow">
-                  {article.intro_text}
+                </h2>
+                <p className="text-gray-500 line-clamp-3 mb-6 flex-1">
+                  {article.meta_description}
                 </p>
-
-                <div className="flex items-center justify-between mt-auto pt-6 border-t border-gray-100">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-600">
-                      {article.author.charAt(0)}
-                    </div>
-                    <span className="text-sm font-medium text-gray-900">{article.author}</span>
-                  </div>
-                  <span className="text-orange-600 font-semibold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center">
-                    Leggi articolo <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-                  </span>
+                
+                <div className="flex items-center text-sm font-bold text-gray-900 mt-auto">
+                  Leggi l'itinerario 
+                  <span className="ml-2 group-hover:translate-x-2 transition-transform duration-300">➜</span>
                 </div>
               </div>
             </Link>
           ))}
+
         </div>
-      </div>
-    </main>
+
+        {/* Messaggio se nessun articolo trovato */}
+        {visibleArticles.length === 0 && (
+          <div className="text-center py-20">
+            <p className="text-gray-400 text-lg">Nessun articolo trovato per questa categoria.</p>
+            <button 
+              onClick={() => setActiveFilter('all')}
+              className="mt-4 text-orange-600 font-bold hover:underline"
+            >
+              Mostra tutti
+            </button>
+          </div>
+        )}
+
+      </main>
+
+      {/* FOOTER */}
+      <footer className="bg-gray-900 text-white py-12 text-center">
+        <p className="text-gray-500 text-sm">
+          © 2026 30SecondsToGuide. All rights reserved.
+        </p>
+      </footer>
+    </div>
   );
 }
