@@ -467,7 +467,7 @@
         "widget": {
           "type": "banner-gyg",
           "label": "Prenota le escursioni a KL",
-          "image": "/images/GYG-banner.png",
+          "image": "/banners/GYG-banner.png",
           "links": [
             { "name": "Tour Malacca", "url": "https://gyg.me/vmqVxesg" },
             { "name": "Cameron Highlands", "url": "https://gyg.me/tnCxJj6s" },
