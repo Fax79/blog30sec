@@ -2,7 +2,9 @@
   {
     "slug": "budapest-ai-challenge",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "budget-travel",
+    "category_label": "Budget Travel",
     "meta_title": "Budapest Low Cost: La sfida all'AI da 250€ - 30SecondsToGuide Blog",
     "meta_description": "Ho chiesto all'intelligenza artificiale di organizzare un weekend a Budapest con 250€. Ecco l'itinerario, i voli e le gemme nascoste che ha trovato.",
     "hero_image": "/images/budapest-hero.jpg",
@@ -30,7 +32,7 @@
         "widget": {
           "type": "script",
           "label": "Verifica prezzi voli in tempo reale",
-          "url": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&locale=it&default_origin=BGY&default_destination=BUD&stops=any&show_hotels=true&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
+          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&locale=it&default_origin=BGY&default_destination=BUD&stops=any&show_hotels=true&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
         }
       },
       {
@@ -70,7 +72,9 @@
   {
     "slug": "vienna-praga-treno",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "slow-travel",
+    "category_label": "Slow Travel",
     "meta_title": "Vienna e Praga in Treno: Itinerario Slow Travel - 30SecondsToGuide Blog",
     "meta_description": "Ho chiesto all'AI un viaggio tra Vienna e Praga spostandomi solo in treno. Ecco l'itinerario perfetto per architettura e caffè storici.",
     "hero_image": "/images/vienna-praga-hero.jpg",
@@ -134,7 +138,9 @@
   {
     "slug": "giappone-sakura-bambini",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "family-edition",
+    "category_label": "Family Edition",
     "meta_title": "Giappone con bimbo di 3 anni: L'itinerario da 7.000€ - 30SecondsToGuide Blog",
     "meta_description": "Ho chiesto all'AI di organizzare il viaggio della vita durante la fioritura dei ciliegi. Risultato? Un piano perfetto, ma con un avvertimento sui costi sanitari.",
     "hero_image": "/images/sakura-hero.jpg",
@@ -203,7 +209,9 @@
   {
     "slug": "madeira-over-50-soft-travel",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "slow-travel",
+    "category_label": "Slow Travel",
     "meta_title": "Madeira 'Soft & Slow': L'itinerario perfetto per gli Over 50 - 30SecondsToGuide",
     "meta_description": "Volevamo spendere 2.500€ per una settimana di relax tra fiori e oceano. L'AI ci ha risposto: 'Non bastano, ve ne servono 3.500'. Ecco perché aveva ragione.",
     "hero_image": "/images/madeira-over50-hero.jpg",
@@ -219,7 +227,7 @@
         "widget": {
           "type": "script",
           "label": "Verifica prezzi voli Madeira",
-          "url": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=FNC&departure=2026-05-15&return=2026-05-22&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
+          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=FNC&departure=2026-05-15&return=2026-05-22&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
         }
       },
       {
@@ -238,7 +246,7 @@
         "widget": {
           "type": "script",
           "label": "Noleggio Auto Cambio Automatico",
-          "url": "https://tpemb.com/content?trs=476244&shmarker=686826&locale=it&default_pick_up_location=FNC&powered_by=true&border_radius=5&plain=true&show_logo=true&color_background=%230b2033&color_button=%23e8b917&promo_id=4362&campaign_id=143"
+          "scriptUrl": "https://tpemb.com/content?trs=476244&shmarker=686826&locale=it&default_pick_up_location=FNC&powered_by=true&border_radius=5&plain=true&show_logo=true&color_background=%230b2033&color_button=%23e8b917&promo_id=4362&campaign_id=143"
         }
       },
       {
@@ -268,7 +276,9 @@
   {
     "slug": "singapore-solo-female-travel",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "solo-travel",
+    "category_label": "Solo Travel",
     "meta_title": "Singapore in solitaria: Meta ideale per donne - 30SecondsToGuide",
     "meta_description": "Sicurezza totale, cibo stellato a 5€ e un budget che avanza. Scopri l'itinerario dell'AI per una settimana a Singapore da sola.",
     "hero_image": "/images/singapore-solo-hero.jpg",
@@ -284,7 +294,7 @@
         "widget": {
           "type": "script",
           "label": "Verifica prezzi voli Singapore",
-          "url": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=singapore_sg&departure=2026-11-10&return=2026-11-16&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
+          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=singapore_sg&departure=2026-11-10&return=2026-11-16&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
         }
       },
       {
@@ -334,7 +344,9 @@
   {
     "slug": "slovenia-pet-friendly-on-the-road",
     "section": "ai-experiment",
+    "section_label": "Esperimenti AI",
     "category": "pet-friendly",
+    "category_label": "Pet Friendly",
     "meta_title": "Slovenia con il cane: Itinerario Pet-Friendly - 30SecondsToGuide",
     "meta_description": "Volevamo spendere 1.800€ tra i laghi sloveni col cane. L'AI ci ha spiegato che ne servono 2.000. Ecco la guida pratica per non sbagliare.",
     "hero_image": "/images/slovenia-pet-hero.jpg",
@@ -350,7 +362,7 @@
         "widget": {
           "type": "script",
           "label": "Noleggio Auto Lubiana Aeroporto",
-          "url": "https://tpemb.com/content?trs=476244&shmarker=686826&locale=en&default_pick_up_location=LJU&powered_by=true&border_radius=5&plain=true&show_logo=true&color_background=%230b2033&color_button=%23e8b917&promo_id=4362&campaign_id=143"
+          "scriptUrl": "https://tpemb.com/content?trs=476244&shmarker=686826&locale=en&default_pick_up_location=LJU&powered_by=true&border_radius=5&plain=true&show_logo=true&color_background=%230b2033&color_button=%23e8b917&promo_id=4362&campaign_id=143"
         }
       },
       {
@@ -400,7 +412,9 @@
   {
     "slug": "malaysia-real-trip-2025",
     "section": "real-story",
+    "section_label": "Storie Reali",
     "category": "family-edition",
+    "category_label": "Family Edition",
     "meta_title": "Malaysia: Oltre lo Schermo. Il viaggio Real Life tra Giungla e Grattacieli",
     "meta_description": "Vivi la Malaysia autentica con il racconto del nostro viaggio di famiglia 2025. Confronto reale tra esperienza sul campo e pianificazione AI.",
     "hero_image": "/images/malaysiareal-hero.jpg",
@@ -413,13 +427,14 @@
       {
         "title": "La Logistica: Saudia e il pernotto tattico",
         "content": "Il viaggio è iniziato con Saudia (Milano-Jeddah-KL). Arrivo alle 15:55 e una scelta che rifaremmo: notte al Movenpick KLIA per resettare il jet lag prima di volare verso Kota Bahru con Air Asia.",
+        "image": "/images/malaysiareal-1.jpg",
         "badge": {
           "type": "laura",
           "label": "Approvato da Laura",
           "image": "/images/silhouette-laura.png"
         },
         "widget": {
-          "type": "banner",
+          "type": "banner-heymondo",
           "label": "Proteggi il tuo viaggio con Heymondo (-10%)",
           "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=TOKYOBLOG&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
           "image": "/banners/heymondo-banner.png"
@@ -428,32 +443,29 @@
       {
         "title": "Perhentian: Squaletti e Tartarughe",
         "content": "Dall'11 al 18 agosto base al Tuna Bay. L'escursione a Redang è stata il top: nuotare con tartarughe marine giganti e avvistare piccoli squaletti a riva ha entusiasmato i ragazzi.",
+        "image": "/images/malaysiareal-2.jpg",
         "badge": {
           "type": "tommaso",
           "label": "Approvato da Tommaso",
           "image": "/images/silhouette-tommaso.png"
         },
-        "widget": {
-          "type": "image",
-          "url": "/images/malaysiareal-2.jpg"
-        }
+        "widget": null
       },
       {
         "title": "Kuala Lumpur: Luci e Lacrime Blu",
         "content": "Dal 19 al 24 agosto immersione urbana: Petronas, KL Tower e l'emozionante gita per vedere le lucciole e le 'Lacrime Blu' (bioluminescenza) nell'acqua.",
+        "image": "/images/malaysiareal-3.jpg",
         "badge": {
           "type": "entrambi",
           "label": "Approvato da Entrambi",
           "image": "/images/silhouette-entrambi.png"
         },
-        "widget": {
-          "type": "image",
-          "url": "/images/malaysiareal-3.jpg"
-        }
+        "widget": null
       },
       {
         "title": "La sfida delle distanze",
         "content": "Le Cameron Highlands e Malacca offrono panorami unici, ma attenzione: i tempi di percorrenza reali (tra traffico e soste) superano spesso le stime degli algoritmi ottimisti.",
+        "image": "/images/malaysiareal-4.jpg",
         "widget": {
           "type": "banner-gyg",
           "label": "Le nostre esperienze preferite",
@@ -483,14 +495,14 @@
         "widget": {
           "type": "script",
           "label": "Voli Milano - Kuala Lumpur",
-          "url": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=KUL&campaign_id=111&promo_id=4484"
+          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=KUL&campaign_id=111&promo_id=4484"
         }
       },
       {
         "title": "Resta Connesso",
         "content": "Non dimenticare la connettività: con Saily hai internet immediato senza dover cercare SIM locali al tuo arrivo a KLIA.",
         "widget": {
-          "type": "banner",
+          "type": "banner-saily",
           "label": "eSIM Saily: Internet in Malaysia",
           "url": "https://saily.tpx.lt/Myxhqmox",
           "image": "https://insessionfilm.com/wp-content/uploads/2025/06/Saily-Banner.png"
