@@ -53,10 +53,11 @@ body {
 }
 
 .badge-image {
-  object-fit: contain;
-  padding: 0.5rem;
+  object-fit: cover; /* <--- CORRETTO: riempie tutto il cerchio */
+  padding: 0; /* Togliamo il padding per farla arrivare al bordo */
   width: 100%;
   height: 100%;
+  border-radius: 9999px; /* Forza il ritaglio circolare sull'immagine stessa */
 }
 
 .badge-label {
