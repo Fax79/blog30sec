@@ -1,11 +1,10 @@
-'use client'; // NECESSARIO per far funzionare i click sui filtri
+'use client';
 
 import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import articlesData from '@/data/articles.json';
 
-// Definizione del tipo Articolo
 interface Article {
   slug: string;
   meta_title: string;
@@ -14,24 +13,20 @@ interface Article {
   hero_title: string;
   date: string;
   read_time: string;
-  category_label?: string; // Nuovi campi
-  section_label?: string;  // Nuovi campi
-  section?: string;        // ID tecnico (es. real-story)
-  category?: string;       // ID tecnico (es. family-edition)
+  category_label?: string;
+  section_label?: string;
+  section?: string;
+  category?: string;
 }
 
 const allArticles = articlesData as Article[];
 
 export default function BlogHome() {
-  // Stato per il filtro attivo
   const [activeFilter, setActiveFilter] = useState<string>('all');
 
   // 1. ESTRAZIONE DINAMICA DELLE CATEGORIE
-  // Cerca tutte le etichette uniche presenti nel JSON
   const filters = useMemo(() => {
     const uniqueFilters = new Map();
-    
-    // Aggiungiamo sempre il filtro "Tutti"
     uniqueFilters.set('all', 'Tutti gli articoli');
 
     allArticles.forEach(article => {
@@ -60,16 +55,19 @@ export default function BlogHome() {
       
       {/* HERO SECTION */}
       <div className="bg-white pb-12 pt-16 px-6 text-center border-b border-gray-100">
+        
+        {/* TITOLO CON 'GUIDE' ARANCIONE */}
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 tracking-tight">
-          30 Seconds To Guide
+          30 Seconds To <span className="text-orange-600">Guide</span>
         </h1>
+        
         <p className="text-xl text-gray-500 max-w-2xl mx-auto">
           Itinerari di viaggio generati dall'AI, testati da umani.
           <br className="hidden md:block" />
           Meno tempo a pianificare, più tempo a viaggiare.
         </p>
 
-        {/* --- BARRA DEI FILTRI (Nuova) --- */}
+        {/* BARRA DEI FILTRI */}
         <div className="mt-10 flex flex-wrap justify-center gap-3">
           {filters.map(([key, label]) => (
             <button
@@ -132,7 +130,7 @@ export default function BlogHome() {
 
         </div>
 
-        {/* Messaggio se nessun articolo trovato */}
+        {/* Messaggio se vuoto */}
         {visibleArticles.length === 0 && (
           <div className="text-center py-20">
             <p className="text-gray-400 text-lg">Nessun articolo trovato per questa categoria.</p>
@@ -147,7 +145,6 @@ export default function BlogHome() {
 
       </main>
 
-      {/* FOOTER */}
       <footer className="bg-gray-900 text-white py-12 text-center">
         <p className="text-gray-500 text-sm">
           © 2026 30SecondsToGuide. All rights reserved.
