@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import articlesData from '@/data/articles.json';
-// Importiamo il widget dei voli esistente
 import FlightWidget from '@/components/FlightWidget';
 
 // --- DEFINIZIONE DEI TIPI ---
@@ -18,18 +17,16 @@ interface Widget {
   subtitle?: string;  
   icon?: string;      
   colorClass?: string;
-  links?: { name: string; url: string }[]; // Per i banner con link multipli (GYG)
-  scriptUrl?: string; // Per widget specifici che usano script url
+  links?: { name: string; url: string }[];
+  scriptUrl?: string;
 }
 
-// Aggiunto tipo per il Badge
 interface Badge {
   type: string;
   label: string;
   image: string;
 }
 
-// Aggiornata sezione per includere image e badge
 interface Section {
   title: string;
   content: string;
@@ -53,9 +50,78 @@ interface Article {
 
 const articles = articlesData as unknown as Article[];
 
+// --- TEXT RENDERER (Formatta Grassetto e Liste) ---
+
+const parseBold = (text: string) => {
+  // Divide il testo dove trova i doppi asterischi
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      // Rimuove gli asterischi e mette il grassetto
+      return <strong key={index} className="font-bold text-gray-900">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
+const TextRenderer = ({ content }: { content: string }) => {
+  if (!content) return null;
+  
+  const lines = content.split('\n');
+  const output = [];
+  let listItems: string[] = [];
+  let inList = false;
+
+  lines.forEach((line, index) => {
+    const trimmedLine = line.trim();
+
+    // Riconosce un punto elenco (riga che inizia con * spazio)
+    if (trimmedLine.startsWith('* ')) {
+      inList = true;
+      listItems.push(trimmedLine.substring(2));
+    } else {
+      // Se finisce la lista, stampiamo il blocco <ul>
+      if (inList) {
+        output.push(
+          <ul key={`list-${index}`} className="list-disc pl-5 mb-6 space-y-2 marker:text-orange-500">
+            {listItems.map((item, i) => (
+              <li key={i}>{parseBold(item)}</li>
+            ))}
+          </ul>
+        );
+        listItems = [];
+        inList = false;
+      }
+
+      // Gestione paragrafi normali e righe vuote
+      if (trimmedLine === '') {
+        // Ignoriamo righe vuote multiple, o aggiungiamo spazio se necessario
+      } else {
+        output.push(
+          <p key={`p-${index}`} className="mb-6 leading-relaxed">
+            {parseBold(line)}
+          </p>
+        );
+      }
+    }
+  });
+
+  // Se finisce il contenuto mentre eravamo ancora in una lista
+  if (inList) {
+    output.push(
+      <ul key="list-end" className="list-disc pl-5 mb-6 space-y-2 marker:text-orange-500">
+        {listItems.map((item, i) => (
+          <li key={i}>{parseBold(item)}</li>
+        ))}
+      </ul>
+    );
+  }
+
+  return <div className="text-gray-600">{output}</div>;
+};
+
 // --- WIDGET COMPONENTS HELPERS ---
 
-// Banner Standard
 const BannerWidget = ({ label, url, image }: { label?: string; url?: string; image?: string }) => {
   if (!url) return null;
   return (
@@ -82,7 +148,6 @@ const BannerWidget = ({ label, url, image }: { label?: string; url?: string; ima
   );
 };
 
-// Banner Multiplo (Es. GetYourGuide)
 const MultiLinkBanner = ({ label, image, links }: { label?: string; image?: string; links?: { name: string; url: string }[] }) => {
   return (
     <div className="my-10 bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
@@ -104,7 +169,6 @@ const MultiLinkBanner = ({ label, image, links }: { label?: string; image?: stri
   );
 }
 
-// Button Widget
 const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label?: string; subtitle?: string; url?: string; icon?: string; colorClass?: string }) => {
   if (!url) return null;
   const isExternal = url.startsWith('http');
@@ -134,12 +198,9 @@ const ButtonWidget = ({ label, subtitle, url, icon, colorClass }: { label?: stri
 // --- MOTORE WIDGET ---
 const WidgetRenderer = ({ widget }: { widget?: Widget | null }) => {
   if (!widget) return null;
-
-  // Normalizziamo i tipi per gestire i casi del JSON
   const type = widget.type;
 
   if (type === 'script' || type === 'widget-kiwi') {
-     // Usa l'URL dello script se presente, altrimenti l'url generico
      const src = widget.scriptUrl || widget.url;
      if (!src) return null;
      return (
@@ -249,9 +310,8 @@ export default async function ArticlePage({ params }: Props) {
                     </h2>
                 )}
                 
-                <div className="leading-relaxed whitespace-pre-line mb-6">
-                  {section.content}
-                </div>
+                {/* USA TEXT RENDERER INVECE DI STAMPARE DIRETTO */}
+                <TextRenderer content={section.content} />
 
                 {/* 1. RENDER IMMAGINE SEZIONE */}
                 {section.image && (
