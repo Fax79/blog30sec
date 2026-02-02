@@ -10,6 +10,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Aggiungiamo il colore del blog nel tema */
+  --color-blog-orange: #FF6B35;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +25,49 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* --- CLASSI PER I BADGE MALAYSIA --- */
+.badge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.badge-circle {
+  position: relative;
+  width: 6rem; /* 24 in tailwind */
+  height: 6rem;
+  border-radius: 9999px;
+  border: 4px solid #FF6B35;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.badge-circle:hover {
+  transform: scale(1.1);
+}
+
+.badge-image {
+  object-fit: contain;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.badge-label {
+  margin-top: 0.5rem;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #374151;
+  background-color: #fff7ed;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid #fed7aa;
 }
