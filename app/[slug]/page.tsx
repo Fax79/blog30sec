@@ -276,7 +276,7 @@ export default async function ArticlePage({ params }: Props) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
         
         <div className="absolute bottom-0 left-0 w-full p-6 md:p-12 max-w-4xl mx-auto">
-          <Link href="/blog" className="inline-flex items-center text-white/80 hover:text-white mb-6 text-sm font-bold uppercase tracking-widest transition-colors">
+          <Link href="/" className="inline-flex items-center text-white/80 hover:text-white mb-6 text-sm font-bold uppercase tracking-widest transition-colors">
             ← Torna al Blog
           </Link>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
@@ -342,7 +342,7 @@ export default async function ArticlePage({ params }: Props) {
       </div>
       
       <div className="max-w-3xl mx-auto mt-12 text-center">
-        <Link href="/blog" className="text-orange-600 font-bold hover:underline">
+        <Link href="/" className="text-orange-600 font-bold hover:underline">
           Vedi tutti gli altri articoli
         </Link>
       </div>
