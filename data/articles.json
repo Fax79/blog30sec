@@ -479,12 +479,12 @@
         "title": "🧙‍♂️ AI Mirror: Il verdetto del Wizard 2026",
         "content": "Abbiamo generato l'itinerario per le stesse date nel 2026 tramite il nostro Wizard. Ecco le differenze principali tra il nostro vissuto e l'algoritmo:\n\n* **Tempi di percorrenza:** Il Wizard suggerisce 3-4 ore per le Cameron Highlands. Nella realtà, tra traffico e soste, considerate quasi l'intera giornata.\n* **Gestione del Relax:** L'AI pianifica attività fino all'ultimo. Noi abbiamo scelto di dedicare il 25 agosto al puro relax in piscina al Verdant Hill, fondamentale prima del volo notturno delle 02:15.\n* **Le chicche locali:** Il Wizard cita i classici, ma l'emozione delle 'Lacrime Blu' o il tempio Guan Di sono scoperte che solo il viaggio reale ti regala.",
         "widget": {
-          "type": "button",
-          "label": "Crea il tuo Itinerario Malaysia con l'AI",
-          "subtitle": "Generazione Istantanea 2026",
-          "url": "https://www.30secondstoguide.it",
-          "icon": "🧙‍♂️",
-          "colorClass": "bg-orange-50 text-orange-700 border border-orange-200"
+         "type": "button",
+         "label": "Scarica l'itinerario Malaysia 2026 (PDF)",
+         "subtitle": "Confronta il piano AI con la nostra realtà",
+          "url": "/downloads/Itinerario_Malaysia.pdf",
+          "icon": "📄",
+          "colorClass": "bg-red-50 text-red-700 border border-red-200"
         }
       },
       {
