@@ -410,93 +410,93 @@
     ]
 },
   {
-    "slug": "malaysia-real-trip-2025",
-    "section": "real-story",
-    "section_label": "Storie Reali",
-    "category": "family-edition",
-    "category_label": "Family Edition",
-    "meta_title": "Malaysia: Oltre lo Schermo. Il nostro viaggio Real Life - 30SecondsToGuide",
-    "meta_description": "17 giorni tra giungla e grattacieli: il racconto del nostro viaggio in Malaysia 2025 confrontato con l'itinerario AI.",
-    "hero_image": "/images/malaysiareal-hero.jpg",
-    "hero_title": "MALAYSIA: OLTRE LO SCHERMO",
-    "intro_text": "17 giorni, una famiglia di quattro persone e una sfida: vivere la Malaysia reale nel 2025 e confrontarla con l'itinerario 'perfetto' del nostro Wizard per il 2026. Spoiler: l'AI è brava, ma l'esperienza sul campo non si batte.",
-    "author": "Fabio",
-    "date": "2 Febbraio 2026",
-    "read_time": "7 min read",
-    "sections": [
-      {
-        "title": "✈️ La Logistica: Saudia e il pernotto tattico",
-        "content": "Il nostro viaggio è iniziato con Saudia (Malpensa-Jeddah-Kuala Lumpur). Arrivo alle 15:55 e una scelta che rifaremmo mille volte: **Movenpick KLIA**. Dormire vicino all'aeroporto ci ha permesso di ricaricare le pile prima del volo Air Asia per Kota Bahru l'indomani.\n\n* **Il consiglio di Laura:** I trasferimenti interni in Malaysia sono efficienti, ma atterrare e avere subito il transfer per il porto già organizzato dal resort (Tuna Bay) toglie ogni stress.",
-        "image": "/images/malaysiareal-1.jpg",
-        "badge": {
-          "type": "laura",
-          "label": "APPROVATO DA LAURA",
-          "image": "/images/silhouette-laura.png"
-        },
-        "widget": {
-          "type": "banner-heymondo",
-          "label": "Assicurazione Viaggio Family (-10%)",
-          "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=TOKYOBLOG&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
-          "image": "/banners/heymondo-banner.png"
-        }
+  "slug": "malaysia-real-trip-2025",
+  "section": "real-story",
+  "section_label": "Storie Reali",
+  "category": "family-edition",
+  "category_label": "Family Edition",
+  "meta_title": "Malaysia: Oltre lo Schermo. Il nostro viaggio Real Life - 30SecondsToGuide",
+  "meta_description": "17 giorni tra giungla e grattacieli: il racconto del nostro viaggio in Malaysia 2025 confrontato con l'itinerario AI.",
+  "hero_image": "/images/malaysiareal-hero.jpg",
+  "hero_title": "MALAYSIA: OLTRE LO SCHERMO",
+  "intro_text": "17 giorni, una famiglia di quattro persone e una sfida: vivere la Malaysia reale nel 2025 e confrontarla con l'itinerario 'perfetto' del nostro Wizard per il 2026. Spoiler: l'AI è brava, ma l'esperienza sul campo non si batte.",
+  "author": "Fabio",
+  "date": "2 Febbraio 2026",
+  "read_time": "7 min read",
+  "sections": [
+    {
+      "title": "1. ✈️ La Logistica: Saudia e il pernotto tattico",
+      "content": "Per il nostro viaggio abbiamo scelto di volare con **Saudia** (Malpensa-Jeddah-Kuala Lumpur) perché offriva gli orari più comodi al prezzo migliore. Per garantirci un prezzo appena sotto i **2.900 euro in 4**, comprensivo di scelta dei posti e bagaglio da imbarcare, abbiamo prenotato circa 11 mesi prima. Il volo è partito alle 16:05 con arrivo a Kuala Lumpur alle 15:55 locali: questo ci ha permesso di passare una notte intera in volo, riposare, ma arrivare abbastanza stanchi per dormire non appena arrivati in hotel e assorbire istantaneamente il fuso.\n\nQuesta è una scelta che rifaremmo mille volte: **Movenpick KLIA**. Dormire vicino all'aeroporto ci ha permesso di ricaricare le pile prima del volo Air Asia per Kota Bahru l'indomani. Per la logistica delle Perhentian il timing è fondamentale: il resort ci ha organizzato il transfer, ma se organizzate in autonomia tenete a mente che vanno sincronizzati alla perfezione il volo interno, il trasferimento in auto a Kuala Besut e la barca.\n\n* **Il consiglio di Laura:** I trasferimenti interni in Malaysia sono efficienti, ma atterrare e avere subito il transfer per il porto già organizzato dal resort (Tuna Bay) toglie ogni stress.",
+      "image": "/images/malaysiareal-1.jpg",
+      "badge": {
+        "type": "laura",
+        "label": "APPROVATO DA LAURA",
+        "image": "/images/silhouette-laura.png"
       },
-      {
-        "title": "🐢 Perhentian: Snorkeling, Tartarughe e Squaletti",
-        "content": "Dall'11 al 18 agosto il mare è stato la nostra casa. Il **Tuna Bay** si è confermato una base perfetta. L'escursione a Redang è stata l'apice: nuotare con le tartarughe marine e avvistare piccoli squaletti a riva ha reso il viaggio indimenticabile per i ragazzi.\n\n* **Il commento di Tommaso:** Mamma, ho nuotato con uno squalo vero! E le tartarughe erano giganti!",
-        "image": "/images/malaysiareal-2.jpg",
-        "badge": {
-          "type": "tommaso",
-          "label": "APPROVATO DA TOMMASO",
-          "image": "/images/silhouette-tommaso.png"
-        }
-      },
-      {
-        "title": "🏙️ Kuala Lumpur e dintorni: Il cuore pulsante",
-        "content": "Tornati a KL il 18 agosto, abbiamo vissuto la città a 360°. Dalle icone come le **Petronas** e la **KL Tower**, fino alle esperienze più 'wild' come le scimmie e le magiche **Lacrime Blu** (lucciole e bioluminescenza nell'acqua) viste il 20 agosto.\n\n* **Cultura e Divertimento:** Non sono mancate le tappe classiche: Batu Caves la mattina presto (per battere il caldo e la folla) e il tempio Thean Hou.",
-        "image": "/images/malaysiareal-3.jpg",
-        "badge": {
-          "type": "entrambi",
-          "label": "APPROVATO DA ENTRAMBI",
-          "image": "/images/silhouette-entrambi.png"
-        }
-      },
-      {
-        "title": "⛰️ La sfida delle distanze: Cameron Highlands e Malacca",
-        "content": "Abbiamo dedicato giornate intere a queste mete. Le **Cameron Highlands** (21 agosto) offrono paesaggi unici, ma preparatevi: la strada è lunga. Lo stesso vale per **Malacca** (22 agosto), un tuffo nella storia coloniale che merita ogni chilometro.",
-        "image": "/images/malaysiareal-4.jpg",
-        "widget": {
-          "type": "banner-gyg",
-          "label": "Prenota le escursioni a KL",
-          "image": "/banners/GYG-banner.png",
-          "links": [
-            { "name": "Tour Malacca", "url": "https://gyg.me/vmqVxesg" },
-            { "name": "Cameron Highlands", "url": "https://gyg.me/tnCxJj6s" },
-            { "name": "Lucciole & Blue Tears", "url": "https://gyg.me/uFQqOL8X" }
-          ]
-        }
-      },
-      {
-        "title": "🧙‍♂️ AI Mirror: Il verdetto del Wizard 2026",
-        "content": "Abbiamo generato l'itinerario per le stesse date nel 2026 tramite il nostro Wizard. Ecco le differenze principali tra il nostro vissuto e l'algoritmo:\n\n* **Tempi di percorrenza:** Il Wizard suggerisce 3-4 ore per le Cameron Highlands. Nella realtà, tra traffico e soste, considerate quasi l'intera giornata.\n* **Gestione del Relax:** L'AI pianifica attività fino all'ultimo. Noi abbiamo scelto di dedicare il 25 agosto al puro relax in piscina al Verdant Hill, fondamentale prima del volo notturno delle 02:15.\n* **Le chicche locali:** Il Wizard cita i classici, ma l'emozione delle 'Lacrime Blu' o il tempio Guan Di sono scoperte che solo il viaggio reale ti regala.",
-        "widget": {
-         "type": "button",
-         "label": "Scarica l'itinerario Malaysia 2026 (PDF)",
-         "subtitle": "Confronta il piano AI con la nostra realtà",
-          "url": "/downloads/Itinerario_Malaysia.pdf",
-          "icon": "📄",
-          "colorClass": "bg-red-50 text-red-700 border border-red-200"
-        }
-      },
-      {
-        "title": "🔚 Conclusioni",
-        "content": "La Malaysia è una meta che bilancia perfettamente avventura e comfort per una famiglia. L'AI è un ottimo punto di partenza per il budget (il nostro target di **8400€** è stato confermato come 'Sufficiente'), ma è la flessibilità umana a rendere il viaggio speciale.",
-        "widget": {
-          "type": "banner-saily",
-          "label": "Internet in Malaysia con Saily",
-          "url": "https://saily.tpx.lt/Myxhqmox",
-          "image": "https://insessionfilm.com/wp-content/uploads/2025/06/Saily-Banner.png"
-        }
+      "widget": {
+        "type": "banner-heymondo",
+        "label": "Assicurazione Viaggio Family (-10%)",
+        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=TOKYOBLOG&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
+        "image": "/banners/heymondo-banner.png"
       }
-    ]
-  }
+    },
+    {
+      "title": "2. 🐢 Perhentian: Snorkeling, Tartarughe e Squaletti",
+      "content": "Dall'11 al 18 agosto il mare è stato la nostra casa. Il **Tuna Bay** si è confermato una base perfetta. Il mare davanti al resort è un punto ideale per fare snorkeling anche per i meno esperti: mare calmo, acqua bassa e una miriade di pesci colorati. Poco più avanti potete trovare chi organizza escursioni in barca a prezzi super convenienti.\n\nL'escursione a **Redang** è stata l'apice: nuotare con le tartarughe marine e avvistare piccoli squaletti a riva ha reso il viaggio indimenticabile per i ragazzi.\n\n* **Il commento di Tommaso:** Mamma, ho nuotato con uno squalo vero! E le tartarughe erano giganti!",
+      "image": "/images/malaysiareal-2.jpg",
+      "badge": {
+        "type": "tommaso",
+        "label": "APPROVATO DA TOMMASO",
+        "image": "/images/silhouette-tommaso.png"
+      }
+    },
+    {
+      "title": "3. 🏙️ Kuala Lumpur e dintorni: Il cuore pulsante",
+      "content": "Tornati a KL il 18 agosto, abbiamo vissuto la città a 360°. Dalle icone come le **Petronas** e la **KL Tower**, fino alle esperienze più 'wild' come le scimmie e le magiche **Lacrime Blu** (lucciole e bioluminescenza nell'acqua) viste il 20 agosto. Fare tutto questo tenendo KL come base è un vero tour de force, ma fattibile con una buona organizzazione: abbiamo usato **Grab** quando le distanze erano grandi, ma abbiamo anche camminato molto per apprezzare la multiculturalità della città.\n\nIl programma è iniziato il 19 agosto con la KL verticale. Il 20 agosto è stato dedicato all'escursione serale a **Melawati Hill**, con l'iconico faro di Altingburg, dove puoi fare incontri molto ravvicinati con le scimmie foglia d'argento. Il 23 agosto si torna in città per Petaling Street e la straordinaria **Merdeka Square**, addobbata per l'indipendenza. Non è mancata una puntatina a **Merdeka 118**, il secondo grattacielo più alto al mondo.\n\n* **Cultura e Divertimento:** Non sono mancate le tappe classiche: **Batu Caves** il 24 agosto mattina presto (per battere il caldo, la gang dei macachi e la folla) e il tempio **Thean Hou**.",
+      "image": "/images/malaysiareal-3.jpg",
+      "badge": {
+        "type": "entrambi",
+        "label": "APPROVATO DA ENTRAMBI",
+        "image": "/images/silhouette-entrambi.png"
+      }
+    },
+    {
+      "title": "4. ⛰️ La sfida delle distanze: Cameron Highlands e Malacca",
+      "content": "Abbiamo dedicato giornate intere a queste mete. Le **Cameron Highlands** (21 agosto) offrono paesaggi unici, ma preparatevi: la strada è lunga. Lo stesso vale per **Malacca** (22 agosto), un tuffo nella storia coloniale che merita ogni chilometro.",
+      "image": "/images/malaysiareal-4.jpg",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Prenota le escursioni a KL",
+        "image": "/banners/GYG-banner.png",
+        "links": [
+          { "name": "Tour Malacca", "url": "https://gyg.me/vmqVxesg" },
+          { "name": "Cameron Highlands", "url": "https://gyg.me/tnCxJj6s" },
+          { "name": "Lucciole & Blue Tears", "url": "https://gyg.me/uFQqOL8X" }
+        ]
+      }
+    },
+    {
+      "title": "5. 🧙‍♂️ AI Mirror: Il verdetto del Wizard 2026",
+      "content": "Abbiamo generato l'itinerario per le stesse date nel 2026 tramite il nostro Wizard. Ecco le differenze principali tra il nostro vissuto e l'algoritmo:\n\n* **Tempi di percorrenza:** Il Wizard suggerisce 3-4 ore per le Cameron Highlands. Nella realtà, tra traffico e soste, considerate quasi l'intera giornata.\n* **Gestione del Relax:** L'AI pianifica attività fino all'ultimo. Noi abbiamo scelto di dedicare il 25 agosto al puro relax in piscina al **Verdant Hill**, fondamentale prima del volo notturno delle 02:15.\n* **Le chicche locali:** Il Wizard cita i classici, ma l'emozione delle 'Lacrime Blu' o il tempio Guan Di sono scoperte che solo il viaggio reale ti regala.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica l'itinerario Malaysia 2026 (PDF)",
+        "subtitle": "Confronta il piano AI con la nostra realtà",
+        "url": "/downloads/Itinerario_Malaysia.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
+      }
+    },
+    {
+      "title": "6. 🔚 Conclusioni",
+      "content": "La Malaysia è una meta che bilancia perfettamente avventura e comfort per una famiglia. L'AI è un ottimo punto di partenza, ma è la flessibilità umana a rendere il viaggio speciale. Ecco il breakdown reale dei costi per la nostra famiglia di 4 persone (17 giorni, tutto incluso):\n\n* **Volo (Saudia):** ~2.875€\n* **Hotel:** ~2.800€\n* **Cibo (dai ristoranti ai caffè):** ~1.270€\n* **Escursioni:** ~920€\n* **Spostamenti (Grab e voli interni):** ~345€\n* **Altro:** ~175€\n* **TOTALE:** **~8.385€**\n\nIl nostro budget target di **8.400€** è stato quindi confermato come 'Sufficiente' dall'esperienza sul campo.",
+      "widget": {
+        "type": "banner-saily",
+        "label": "Internet in Malaysia con Saily",
+        "url": "https://saily.tpx.lt/Myxhqmox",
+        "image": "https://insessionfilm.com/wp-content/uploads/2025/06/Saily-Banner.png"
+      }
+    }
+  ]
+}
 ]
