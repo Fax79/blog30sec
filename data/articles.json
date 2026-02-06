@@ -488,15 +488,24 @@
       }
     },
     {
-      "title": "6. 🔚 Conclusioni",
-      "content": "La Malaysia è una meta che bilancia perfettamente avventura e comfort per una famiglia. L'AI è un ottimo punto di partenza, ma è la flessibilità umana a rendere il viaggio speciale. Ecco il breakdown reale dei costi per la nostra famiglia di 4 persone (17 giorni, tutto incluso):\n\n* **Volo (Saudia):** ~2.875€\n* **Hotel:** ~2.800€\n* **Cibo (dai ristoranti ai caffè):** ~1.270€\n* **Escursioni:** ~920€\n* **Spostamenti (Grab e voli interni):** ~345€\n* **Altro:** ~175€\n* **TOTALE:** **~8.385€**\n\nIl nostro budget target di **8.400€** è stato quindi confermato come 'Sufficiente' dall'esperienza sul campo.",
-      "widget": {
-        "type": "banner-saily",
-        "label": "Internet in Malaysia con Saily",
-        "url": "https://saily.tpx.lt/Myxhqmox",
-        "image": "https://insessionfilm.com/wp-content/uploads/2025/06/Saily-Banner.png"
+        "title": "6. 🔚 Conclusioni",
+        "content": "La Malaysia è una meta che bilancia perfettamente avventura e comfort per una famiglia. L'AI è un ottimo punto di partenza, ma è la flessibilità umana a rendere il viaggio speciale. Ecco il breakdown reale dei costi per la nostra famiglia di 4 persone (17 giorni, tutto incluso):\n\n* **Volo (Saudia):** ~2.875€\n* **Hotel:** ~2.800€\n* **Cibo (dai ristoranti ai caffè):** ~1.270€\n* **Escursioni:** ~920€\n* **Spostamenti (Grab e voli interni):** ~345€\n* **Altro:** ~175€\n* **TOTALE:** **~8.385€**\n\nIl nostro budget target di **8.400€** è stato quindi confermato come 'Sufficiente' dall'esperienza sul campo.",
+        "widget": {
+          "type": "script",
+          "label": "Verifica prezzi voli Milano - Kuala Lumpur",
+          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=kuala-lumpur_my&departure=2026-08-08&return=2026-08-25&campaign_id=111&promo_id=4484"
+        }
+      },
+      {
+        "title": "7. 📱 Resta Connesso",
+        "content": "Per gestire Grab, mappe e social senza impazzire con le SIM locali, abbiamo usato una eSIM. È la soluzione più comoda per avere internet attivo già al momento dell'atterraggio a Kuala Lumpur.",
+        "widget": {
+          "type": "banner-saily",
+          "label": "Internet in Malaysia con Saily",
+          "url": "https://saily.tpx.lt/Myxhqmox",
+          "image": "https://insessionfilm.com/wp-content/uploads/2025/06/Saily-Banner.png"
+        }
       }
-    }
   ]
 }
 ]
