@@ -638,12 +638,12 @@
       "image": "/images/siviglia-3.jpg",
       "widget": {
         "type": "banner-gyg",
-        "label": "Gli 'Sgarri' Consapevoli (Salta la Fila)",
+        "label": "Gli 'Sgarri' Consapevoli",
         "image": "/banners/GYG-banner.png",
         "links": [
           { "name": "Reales Alcázares", "url": "https://gyg.me/LDRjaCyq" },
-          { "name": "Cattedrale e Giralda", "url": "https://gyg.me/WuQJg4aX" },
-          { "name": "Spettacolo Flamenco a Triana", "url": "https://gyg.me/ATFFHt31" }
+          { "name": "Cattedrale e Giralda - salta la fila", "url": "https://gyg.me/ATFFHt31" },
+          { "name": "Spettacolo Flamenco a Triana", "url": "https://gyg.me/WuQJg4aX" }
         ]
       }
     },
