@@ -601,5 +601,64 @@
       }
     }
   ]
+},
+{
+  "slug": "siviglia-low-cost-500-euro",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
+  "category": "budget-travel",
+  "category_label": "Budget Travel",
+  "meta_title": "Siviglia Low Cost: La sfida all'AI da 500€ in due - 30SecondsToGuide",
+  "meta_description": "Un weekend in Andalusia a maggio con 500€ totali per due persone? L'itinerario dell'AI tra tapas, Triana e cultura a costo zero.",
+  "hero_image": "/images/siviglia-hero.jpg",
+  "hero_title": "SIVIGLIA LOW COST: LA SFIDA DA 500€ IN DUE",
+  "intro_text": "Maggio è senza dubbio il mese perfetto per organizzare un **weekend in Andalusia**. La città si tinge del viola dei jacaranda in fiore, l'aria profuma ancora di fiori d'arancio e il clima è ideale prima che l'estate porti il termometro a sfiorare gli spietati 40 gradi. Ma è possibile vivere la magia di questa terra senza svuotare il conto in banca? Abbiamo lanciato una sfida estrema al nostro Itinerary Wizard: organizzare un **itinerario economico a Siviglia** per due persone, dal 14 al 17 maggio 2026, imponendo un tetto di spesa invalicabile di 500€ totali. L'algoritmo ha analizzato la nostra richiesta, ha incrociato migliaia di dati e ha emesso il suo verdetto: il budget è considerato \"Stretto\", ma la missione è assolutamente fattibile. Ecco come l'Intelligenza Artificiale ha ottimizzato ogni singolo centesimo per regalarci un'avventura low cost senza rinunciare all'anima più autentica della capitale andalusa.",
+  "author": "Fabio - Tech Traveler",
+  "date": "20 Febbraio 2026",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "title": "1. ✈️ La Logistica: Oltre il Fiume, nel Cuore di Triana",
+      "content": "Per non far saltare il banco fin dal primo giorno, la simulazione del nostro Wizard parte strategicamente dall'aeroporto di Roma, sfruttando la fitta rete di vettori low-cost. La regola d'oro dettata dall'AI per un **Siviglia low cost** è draconiana ma necessaria: prenotare con diversi mesi di anticipo e viaggiare leggerissimi, portando con sé solo il piccolo zaino gratuito da infilare sotto il sedile. La stima dell'algoritmo per il volo di andata e ritorno per due persone oscilla tra i 120€ e i 180€.\n\nMa è sulla scelta dell'alloggio che il Wizard dimostra una profonda intelligenza tattica. Invece di proporci il costoso (e spesso troppo turistico) Barrio de Santa Cruz, l'algoritmo ci invita ad attraversare il celebre Puente de Isabel II per stabilire la nostra base a **Triana** o, in alternativa, nel vivace quartiere della **Macarena**. Triana non è solo un'opzione economica: per i sivigliani è quasi una città a sé stante (la chiamano affettuosamente la \"Repubblica Indipendente di Triana\"). È la culla storica del flamenco, il quartiere dei maestri ceramisti e dei marinai. Qui, una camera doppia in una guesthouse tradizionale può costare tra i 30€ e i 40€ a notte (circa 90-120€ per l'intero soggiorno), garantendo non solo un netto risparmio, ma un'immersione totale nella vita locale fin dal primo caffè del mattino.",
+      "image": "/images/siviglia-1.jpg",
+      "widget": {
+        "type": "script",
+        "label": "Verifica prezzi voli Roma - Siviglia",
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=rome_it&to_name=SVQ&departure=2026-05-14&return=2026-05-17&stops=0&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
+      }
+    },
+    {
+      "title": "2. 🍤 La Tattica delle Tapas: Alta Gastronomia a 8€",
+      "content": "Dimenticate le cene formali nei ristoranti con la tovaglia bianca: il piano alimentare elaborato dall'AI è un vero capolavoro di sopravvivenza culinaria che abbraccia in pieno la cultura spagnola. Per rispettare la severa stima di 150€ totali per tutti i pasti del weekend (calcolando colazioni da 3€ e pranzi o cene da 8€ a persona), l'itinerario ci guida con precisione chirurgica verso i vivaci mercati rionali.\n\nIl primo giorno prevede un pranzo a base di tapas direttamente ai pittoreschi banchi del **Mercado de Triana**, costruito sui resti di un antico castello dell'Inquisizione. Per la cena, l'AI fa nomi e cognomi: suggerisce di intrufolarsi in locali storici come il *Bar Santa Ana* o da *Blanca Paloma*, veri e propri ritrovi per i sivigliani veraci dove si mangia rigorosamente in piedi, appoggiati al bancone.\n\nL'algoritmo ci regala anche un consiglio da insider: ordinando una *Cruzcampo* (la birra locale per eccellenza, servita ghiacciata) o un bicchiere di vino, bisogna puntare sui piatti della tradizione contadina, economici e sazianti. Un rinfrescante *Salmorejo* (una densa e vellutata zuppa fredda di pomodoro e aglio) o un *montadito de pringá* (un piccolo panino ripieno di carne stufata a cottura lenta) vi sazieranno con pochissimi euro, regalandovi la vera essenza dei sapori andalusi.",
+      "image": "/images/siviglia-2.jpg"
+    },
+    {
+      "title": "3. 🏛️ Cultura a Costo Zero (E gli 'Sgarri' Consapevoli)",
+      "content": "Come si esplora una città dal patrimonio storico inestimabile quando non si ha budget per pagare i biglietti d'ingresso? L'algoritmo ha strutturato le giornate massimizzando abilmente le **cose da vedere gratis a Siviglia**.\n\n* **Il Free Walking Tour:** Fortemente raccomandato per la mattina del venerdì, questa passeggiata guidata (che parte solitamente dai dintorni di Plaza Nueva) è il modo migliore per scoprire i segreti della Cattedrale e le leggende legate alla Giralda, ascoltando storie affascinanti e lasciando semplicemente una mancia finale alla guida locale (circa 5-10€ a persona).\n* **Cinematografia e Parchi:** Il sabato mattina è dedicato alla scoperta della maestosa **Plaza de España**. Costruita per l'Esposizione Iberoamericana del 1929, questa piazza semicircolare abbracciata da un canale è talmente spettacolare da essere stata scelta come set per le riprese di *Star Wars: L'Attacco dei Cloni* (era il pianeta Naboo!). Passeggiare qui e nel vicino polmone verde del Parco di María Luisa è un'esperienza fiabesca e, soprattutto, totalmente gratuita.\n* **I tagli dolorosi ma strategici:** L'AI sa bene che il rispetto del budget richiede disciplina. Per questo motivo, ci suggerisce di ammirare l'incredibile architettura contemporanea in legno del **Metropol Parasol** (noto a tutti come *Las Setas*, i funghi) esclusivamente dal basso, chiedendoci di rinunciare alla passerella panoramica sul tetto per risparmiare i 10€ del ticket.\n\n**La regola dello 'Sgarro':** L'AI ci ha dimostrato che Siviglia a 500€ è possibile. Ma se avete messo in conto di poter sforare il budget di qualche decina di euro per non perdervi i capolavori assoluti, ci sono un paio di esperienze per cui vale la pena aprire il portafoglio (e prenotare con largo anticipo per saltare le code chilometriche):",
+      "image": "/images/siviglia-3.jpg",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Gli 'Sgarri' Consapevoli (Salta la Fila)",
+        "image": "/banners/GYG-banner.png",
+        "links": [
+          { "name": "Reales Alcázares", "url": "https://gyg.me/LDRjaCyq" },
+          { "name": "Cattedrale e Giralda", "url": "https://gyg.me/WuQJg4aX" },
+          { "name": "Spettacolo Flamenco a Triana", "url": "https://gyg.me/ATFFHt31" }
+        ]
+      }
+    },
+    {
+      "title": "4. 🔚 Il Verdetto: Missione Compiuta?",
+      "content": "Al termine della simulazione, l'analisi finanziaria operata dal Wizard è di una precisione rassicurante. La stima totale per l'intero weekend di coppia si ferma a soli **450€**.\n\nEcco il breakdown spietato elaborato dall'AI:\n* **Voli (Roma-Siviglia A/R):** 150€ (ambizioso, richiede flessibilità e largo anticipo)\n* **Alloggio (3 notti in guesthouse/hostel):** 100€\n* **Pasti (3 giorni completi di tapas per due):** 150€\n* **Trasporti urbani (incluso l'indispensabile bus EA da/per l'aeroporto):** 20€\n* **Attività e Mance (Free tour e piccoli extra):** 30€\n\nCon un rassicurante margine di sicurezza di 50€ rispetto al tetto massimo che avevamo impostato (escludendo eventuali 'sgarri' extra), questo esperimento dimostra chiaramente che il sud della Spagna è ancora una meta profondamente accessibile. Basta un pizzico di flessibilità, la voglia di rinunciare a qualche lusso superfluo e, ovviamente, un algoritmo intelligente che sappia esattamente in quale bar di quartiere mandarvi a ordinare la vostra *cerveza*.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il Travel Plan Siviglia PDF",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Siviglia.pdf",
+        "icon": "💃",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
+      }
+    }
+  ]
 }  
 ]
