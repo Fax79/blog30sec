@@ -683,7 +683,7 @@
       "widget": {
         "type": "script",
         "label": "Verifica prezzi voli Milano - Londra",
-        "scriptUrl": "<script async src="https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=london_gb&departure=2026-06-11&return=2026-06-14&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478" charset="utf-8"></script>"
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=london_gb&departure=2026-06-11&return=2026-06-14&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
       }
     },
     {
