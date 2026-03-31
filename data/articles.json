@@ -910,9 +910,13 @@
     {
       "title": "7. 💹 Il Verdetto finale: 3.500€ sono davvero sufficienti?",
       "content": "Chiudiamo con la fredda analisi dei numeri. L'Itinerary Wizard ha processato i costi medi di aprile 2026: i 1.500€ di voli e i 720€ di alloggi assorbono circa il 63% del budget. Rimangono circa 1.300€ per vitto, escursioni e lo shopping inevitabile nei souk. Per una famiglia di 4 persone, è un budget classificato come 'Sufficiente': permette di vivere la città con comfort e di concedersi esperienze di qualità senza eccessi sfarzosi. Il segreto per non sforare? La negoziazione. In Marocco, il prezzo è quasi sempre l'inizio di una conversazione. Gestire correttamente questa dinamica fa parte del viaggio e può liberare le risorse necessarie per un'ultima escursione a dorso di cammello nella Palmeraie prima del rientro.",
-      "cta": {
-        "text": "SCARICA IL TRAVEL PLAN COMPLETO (PDF)",
-        "url": "/api/files/uploaded:Itinerary_Marrakech.pdf"
+      "widget": {
+          "type": "button",
+          "label": "Scarica il PDF originale del Travel Plan",
+          "subtitle": "File generato dall'AI (PDF)",
+          "url": "/downloads/Itinerary_Marrakech.pdf",
+          "icon": "📄",
+          "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     }
   ]
