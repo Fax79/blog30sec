@@ -851,7 +851,7 @@
       "widget": {
         "type": "script",
         "label": "Voli Milano - Marrakech (via Lisbona)",
-        "scriptUrl": "<script async src=\"https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=marrakesh_ma&campaign_id=111&promo_id=4484\" charset=\"utf-8\"></script>"
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=marrakesh_ma&campaign_id=111&promo_id=4484"
       }
     },
     {
