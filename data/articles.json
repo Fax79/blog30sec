@@ -827,5 +827,94 @@
       }
     }
   ]
+},
+{
+  "slug": "marrakech-family-edition-stopover-lisbona",
+  "section": "epic-journeys",
+  "section_label": "Epic Journeys",
+  "category": "family",
+  "category_label": "Family",
+  "meta_title": "Marrakech Family Edition: Guida tra Souk, Riad e scalo a Lisbona",
+  "meta_description": "Pianificare Marrakech con la famiglia: 5 notti, 4 persone e uno scalo a Lisbona. Logistica, budget e segreti della Medina progettati dall'Itinerary Wizard.",
+  "hero_image": "/images/marrakech-hero.jpg",
+  "hero_title": "MARRAKECH FAMILY EDITION: TRA I SOUK E L'ATLANTICO",
+  "intro_text": "5 notti. 4 persone. 3.500€ di budget. Uno stopover a Lisbona. Ecco come l'Itinerary Wizard ha trasformato una logistica complessa in una spedizione familiare senza sbavature, dove il caos diventa metodo.",
+  "author": "Fabio - Tech Traveler",
+  "date": "31 Marzo 2026",
+  "read_time": "15 min read",
+  "sections": [
+    {
+      "title": "1. ✈️ Il 'Gancio' Portoghese: Perché lo scalo a Lisbona è una scelta tecnica",
+      "content": "Pianificare un volo per il Marocco da Milano per l'inizio di aprile significa scontrarsi con una volatilità dei prezzi notevole. La scelta della TAP non è solo economica (circa 1.500€ per l’intero nucleo familiare), ma strategicamente intelligente. Inserire uno stopover a Lisbona permette di spezzare la tratta, offrendo ai ragazzi un primo assaggio d'oceano e di architettura europea prima del tuffo nel deserto. Lisbona in aprile regala una luce cristallina: una passeggiata veloce tra l'Alfama e la Baixa, una sosta per i Pastéis de Belém e si è pronti per il balzo verso l'Africa. Tecnicamente, questa mossa permette di ottimizzare il 'jet lag psicologico' e di sfruttare i tempi morti degli aeroporti trasformandoli in valore aggiunto per l'esperienza complessiva.",
+      "image": "/images/marrakech-1.jpg",
+      "image_alt": "Veduta aerea o scalo tecnico a Lisbona prima del Marocco",
+      "widget": {
+        "type": "script",
+        "label": "Voli Milano - Marrakech (via Lisbona)",
+        "scriptUrl": "<script async src=\"https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=marrakesh_ma&campaign_id=111&promo_id=4484\" charset=\"utf-8\"></script>"
+      }
+    },
+    {
+      "title": "2. 🧱 I segreti della Medina: Un labirinto progettato per confondere",
+      "content": "La Medina di Marrakech non è solo il cuore pulsante della città, è un capolavoro di ingegneria difensiva medievale. Passeggiando tra le mura color ocra (da cui il nome 'Città Rossa'), si nota come i vicoli si stringano e si intreccino in modo quasi illogico. Questa struttura non è casuale: fu progettata secoli fa come sistema di difesa passiva per disorientare gli invasori e spezzare le raffiche di vento del deserto, mantenendo le vie interne naturalmente fresche. Patrimonio UNESCO dal 1985, questo dedalo nasconde tesori come la Madrasa di Ben Youssef, dove il tempo sembra essersi fermato. Tuttavia, quella stessa architettura nata per confondere i nemici oggi mette a dura prova anche il viaggiatore più esperto. In un contesto dove Google Maps spesso fatica a distinguere un vicolo cieco da un passaggio principale, avere una connessione dati stabile non è un lusso, ma una necessità logistica. Soluzioni come le eSim di Saily permettono di navigare in questo caos con una bussola digitale sempre attiva, evitando di trasformare una giornata di scoperta in un’estenuante ricerca della via del ritorno.",
+      "image": "/images/marrakech-2.jpg",
+      "image_alt": "I vicoli ocra e labirintici della Medina di Marrakech",
+      "widget": {
+        "type": "banner-saily",
+        "label": "eSIM Marocco Saily (Codice: FABIOI3455)",
+        "url": "https://saily.tpx.lt/marrakech-data",
+        "image": "/banners/saily-marocco.png"
+      }
+    },
+    {
+      "title": "3. 🕌 Il Riad come Hub Strategico: L'architettura del silenzio",
+      "content": "Per una famiglia con un adolescente e un bambino di 6 anni, la scelta dell'alloggio non è solo una questione estetica, ma funzionale. Il Riad — la tipica casa con giardino interno — funge da vera camera di decompressione. Abbiamo isolato strutture come il Riad La Vie o il Riad Dar el Souk per la loro capacità di offrire suite familiari ampie e, soprattutto, una piscina interna: elemento fondamentale per scaricare l'adrenalina dopo il caos del souk. Una nota architettonica interessante: il termine 'Riad' deriva dall'arabo 'ryad', che significa giardino. Il design è introverso, con poche o nessuna finestra verso l'esterno per garantire privacy e una termoregolazione naturale eccezionale. Con un budget medio di 180€ a notte, si accede a un livello di ospitalità che garantisce il recupero fisico necessario per la tappa successiva.",
+      "image": "/images/marrakech-3.jpg",
+      "image_alt": "Piscina interna in un tipico Riad di lusso a Marrakech",
+      "widget": {
+        "type": "link",
+        "label": "Cerca Riad con Suite Familiare e Piscina",
+        "url": "https://www.expedia.it/Hotel-Search?destination=Marrakesh%2C%20Marrakech%2C%20Marrakech-Safi%2C%20Marocco&regionId=2938&latLong=31.6297%2C-7.987581&flexibility=0_DAY&d1=2026-05-01&startDate=2026-05-01&d2=2026-05-06&endDate=2026-05-06&adults=2&rooms=1&children=1_6%2C1_14&sort=RECOMMENDED&lodging=RIAD&amenities=POOL"
+      }
+    },
+    {
+      "title": "4. 🧭 L'itinerario del contrasto: Dalla Bahia al Blu Majorelle",
+      "content": "Marrakech vive di dualismi cromatici e architettonici. Il mattino è dedicato alla storia 'pesante' del Palazzo della Bahia, con i suoi 8.000 metri quadrati di mosaici, intarsi in legno di cedro e cortili silenziosi che raccontano l'opulenza dei visir del XIX secolo. Il pomeriggio, invece, il registro cambia totalmente spostandosi verso il Jardin Majorelle. Qui, il 'Blu Majorelle' domina la scena: una tonalità di blu cobalto così intensa da sembrare quasi elettrica, creata dal pittore Jacques Majorelle e successivamente salvata da Yves Saint Laurent. Per una famiglia, questa è la tappa più scenografica, ma richiede una gestione millimetrica degli orari per evitare le ore più calde e le folle. Utilizzare piattaforme come GetYourGuide per prenotare in anticipo ingressi e attività permette di saltare le code e centralizzare la logistica, lasciando più tempo al piacere della visita.",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Esperienze Family consigliate",
+        "image": "/banners/GYG-marrakech.png",
+        "links": [
+          { "name": "Escursione Valle dell'Ourika", "url": "https://gyg.me/0TO2o9JO" },
+          { "name": "Tramonto in Cammello Palmeraie", "url": "https://gyg.me/J4gZALl5" },
+          { "name": "Tour Guidato della Medina", "url": "https://gyg.me/EJ9fAqbO" }
+        ]
+      }
+    },
+    {
+      "title": "5. 🥘 Food Strategy: Tajine, Tanja e la cultura del gusto",
+      "content": "Mangiare a Marrakech è un'esperienza che va dalla raffinatezza dei rooftop come il Nomad allo street food più verace. Il budget stimato di 500€ per 4 persone permette di alternare pasti veloci a base di Msemen (crêpes sfogliate deliziose per i bambini) a cene complete. Una curiosità culinaria per i veri appassionati: la Tanja è il piatto tipico di Marrakech, differente dalla Tajine. Viene cucinata in anfore di terracotta portate nei forni dei bagni turchi (Hammam) e lasciata cuocere lentamente per ore tra le braci che scaldano l'acqua. Per chi viaggia con bambini, il consiglio tecnico è di preferire sempre acqua in bottiglia e locali con un alto turnover di clienti, assicurando la freschezza degli ingredienti in ogni situazione."
+    },
+    {
+      "title": "6. 🥁 Il caos vibrante di Djemaa el-Fna: Accoglienza e prudenza",
+      "content": "Piazza Djemaa el-Fna al tramonto è uno dei teatri a cielo aperto più incredibili al mondo. Cantastorie, incantatori di serpenti e l'odore acre del fumo delle griglie creano un’atmosfera magnetica che definisce l’essenza stessa del Marocco. È un luogo di accoglienza straordinaria, ma anche un epicentro di stimoli che può risultare travolgente con un nucleo familiare al seguito. Muoversi in questo 'caos colorato' richiede spirito di adattamento. Sebbene il Marocco sia un paese ospitale, l’imprevisto — che sia un piccolo problema di salute legato al cambio di clima o un banale intoppo logistico — fa parte del gioco. Inserire nel proprio piano di viaggio una protezione specifica, come quella offerta da Heymondo, significa semplicemente viaggiare con un paracadute: una garanzia di assistenza h24 che permette di godersi lo spettacolo della piazza con la serenità di chi ha tutto sotto controllo.",
+      "image": "/images/marrakech-4.jpg",
+      "image_alt": "Piazza Djemaa el-Fna al tramonto con le luci delle bancarelle",
+      "widget": {
+        "type": "banner-heymondo",
+        "label": "Assicurazione Viaggio Heymondo (Sconto 10%)",
+        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&cod_descuento=30SECONDSTOGUIDE",
+        "image": "/banners/heymondo-marocco.png"
+      }
+    },
+    {
+      "title": "7. 💹 Il Verdetto finale: 3.500€ sono davvero sufficienti?",
+      "content": "Chiudiamo con la fredda analisi dei numeri. L'Itinerary Wizard ha processato i costi medi di aprile 2026: i 1.500€ di voli e i 720€ di alloggi assorbono circa il 63% del budget. Rimangono circa 1.300€ per vitto, escursioni e lo shopping inevitabile nei souk. Per una famiglia di 4 persone, è un budget classificato come 'Sufficiente': permette di vivere la città con comfort e di concedersi esperienze di qualità senza eccessi sfarzosi. Il segreto per non sforare? La negoziazione. In Marocco, il prezzo è quasi sempre l'inizio di una conversazione. Gestire correttamente questa dinamica fa parte del viaggio e può liberare le risorse necessarie per un'ultima escursione a dorso di cammello nella Palmeraie prima del rientro.",
+      "cta": {
+        "text": "SCARICA IL TRAVEL PLAN COMPLETO (PDF)",
+        "url": "/api/files/uploaded:Itinerary_Marrakech.pdf"
+      }
+    }
+  ]
 }  
 ]
