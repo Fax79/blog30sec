@@ -903,8 +903,8 @@
       "widget": {
         "type": "banner-heymondo",
         "label": "Assicurazione Viaggio Heymondo (Sconto 10%)",
-        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&cod_descuento=30SECONDSTOGUIDE",
-        "image": "/banners/heymondo-marocco.png"
+        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=TOKYOBLOG&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
+        "image": "/banners/heymondo-banner.png"
       }
     },
     {
