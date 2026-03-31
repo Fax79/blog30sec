@@ -883,7 +883,7 @@
       "widget": {
         "type": "banner-gyg",
         "label": "Esperienze Family consigliate",
-        "image": "/banners/GYG-marrakech.png",
+        "image": "/banners/GYG-banner.png",
         "links": [
           { "name": "Escursione Valle dell'Ourika", "url": "https://gyg.me/0TO2o9JO" },
           { "name": "Tramonto in Cammello Palmeraie", "url": "https://gyg.me/J4gZALl5" },
