@@ -1030,5 +1030,83 @@
       }
     }
   ]
+},
+{
+  "slug": "parigi-disneyland-fine-scuola",
+  "section": "family-edition",
+  "section_label": "Family Edition",
+  "category": "family-edition",
+  "category_label": "Family Edition",
+  "meta_title": "Parigi e Disneyland in 6: Il piano di fine prima elementare",
+  "meta_description": "Due famiglie, 6.000€ di budget e 5 giorni tra Parigi e Disneyland. Come sopravvivere e festeggiare la fine della prima elementare organizzando tutto alla perfezione.",
+  "hero_image": "/images/parigi-disneyland-hero.jpg",
+  "hero_title": "PARIGI E DISNEYLAND: CELEBRARE LA FINE DELLA PRIMA ELEMENTARE",
+  "intro_text": "Celebrare la fine della prima elementare tra le luci di Parigi e la magia Disney.",
+  "author": "Martina - Chief Family Officer",
+  "date": "08 Maggio 2026",
+  "read_time": "8 min read",
+  "sections": [
+    {
+      "title": "1. Il piano di battaglia e la logistica per sei",
+      "content": "Ultima pizzata di classe, i bambini che corrono tra i tavoli con le magliette sporche di pomodoro e noi genitori che, tra una margherita e una coca cola, iniziamo a realizzare che la prima elementare è finita. Sopravvissuti. \"Ma perché non portiamo i bimbi a Disneyland Paris per festeggiare?\". Quella che sembrava la classica sparata da dopocena dovuta alla terza birra media, dopo dieci minuti è diventata un gruppo WhatsApp e, dopo venti, un piano di battaglia da 6.000 euro per due famiglie.\n\nIn redazione abbiamo immaginato la situazione che potrebbe capitare a chiunque di voi tra qualche settimana e ci siamo detti: “Questa è una missione per il nostro Wizard!”.\n\nLa logistica per sei persone richiede precisione. Prenotare i voli da Milano per il 20 giugno 2026, puntando sulla tempestività ormai non è un’opzione, e non potremo cogliere il suggerimento del Wizard di muoversi con undici mesi d'anticipo per tentare di tenere la spesa per i voli sotto i 600 euro totali per l'intero gruppo. Ma tranquilli che con Kiwi una soluzione si trova",
+      "image": "/images/parigi-disneyland-1.jpg",
+      "widget": {
+        "type": "script",
+        "label": "Verifica prezzi voli Milano - Parigi",
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=paris_fr&campaign_id=111&promo_id=4484"
+      }
+    },
+    {
+      "title": "2. Parigi autentica tra il Marais e il Quartiere Latino",
+      "content": "Le prime due notti ci vedranno immersi nel cuore della capitale. L'idea è quella di evitare hotel angusti e puntare su un appartamento nel Marais o due camere comunicanti al Quartiere Latino, magari vicino all'Hôtel dei Grands Hommes. Questa scelta, preventivata sui 600 euro, non è solo economica ma funzionale: avere una cucina permette di gestire colazioni e spuntini, riducendo la pressione sul budget alimentare.\n\nMuoversi tra la RER B e la metro con sei persone è il modo migliore per vivere Parigi come i locali, tra una baguette appena sfornata e il fascino dei mercati rionali. Per i pasti in città, la strategia è semplice: pranzi veloci nelle boulangerie e cene nei Bouillon storici come Chartier o Julien, dove l'atmosfera della Belle Époque si sposa con prezzi accessibili.",
+      "image": "/images/parigi-disneyland-2.jpg"
+    },
+    {
+      "title": "3. La festa della musica e la collina degli artisti",
+      "content": "Siamo stati fortunati con le date. Il 21 giugno Parigi esplode letteralmente con la Fête de la Musique. Ogni angolo di strada, ogni piazza e parco diventano un palcoscenico gratuito. È l'occasione perfetta per vivere un'energia vibrante a costo zero. Useremo la funicolare per scalare Montmartre senza affaticare le gambe dei bambini, godendoci la vista dal Sacro Cuore e l'atmosfera di Place du Tertre. Chi non vuole camminare troppo può optare per la Menagerie del Jardin des Plantes, un'ottima alternativa che diverte sempre i più piccoli. L’ultima serata in città si chiuderà con una crociera sulla Senna al tramonto: vedere la Tour Eiffel illuminata dall'acqua è un momento che non stanca mai e permette di riposare prima della grande sfida Disney.",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Esperienze Family consigliate a Parigi",
+        "image": "/banners/GYG-banner.png",
+        "links": [
+          { "name": "Ingresso Torre Eiffel", "url": "https://gyg.me/uEa3ippU" },
+          { "name": "Crociera sulla Senna", "url": "https://gyg.me/hfPhfBQg" },
+          { "name": "Menagerie Zoo Jardin des Plantes", "url": "https://gyg.me/3p2tQNia" }
+        ]
+      }
+    },
+    {
+      "title": "4. Il passaggio alla magia: Destinazione Hotel Cheyenne",
+      "content": "Si cambia atmosfera, dalla magia della Ville Lumiere per i genitori alla magia che riempie gli occhi dei bambini. Si entra in un mondo magico! Il trasferimento verso Disneyland Paris con la RER A è un rito di passaggio di circa 40 minuti partendo da stazioni centrali come Châtelet-Les Halles. Abbiamo scelto il Disney Hotel Cheyenne, un tuffo nel vecchio West che i bambini adoreranno. Due camere standard separate per due notti ci costeranno circa 1.800 euro. È un investimento importante, ma essere dentro il resort con i Magic Pass pronti all'uso e la navetta gratuita cambia totalmente la qualità dell'esperienza, permettendo di gestire meglio i momenti di stanchezza dei più piccoli.",
+      "widget": {
+        "type": "banner",
+        "label": "Scopri le offerte ufficiali Disneyland Paris",
+        "url": "https://clk.tradedoubler.com/click?p=22068&a=3480952&g=26099864",
+        "image": "https://media.disneylandparis.com/d4th/it-it/images/hd19809_2028oct15_world_disney-adventure-world-key-visual-extra-horizontal_5-2_hero-templating_tcm764-292653.jpg?w=2080&f=webp"
+      }
+    },
+    {
+      "title": "5. La strategia 'Split & Merge' nei Parchi",
+      "content": "Ma adesso che facciamo? Inizia la guerra Principesse vs. Buzz Lightyear! Invece di muoverci come un unico blocco lento, ci divideremo (Lo Split) secondo le preferenze. Mentre una parte della spedizione affronta le missioni spaziali a Discoveryland o le avventure di Star Wars, l'altra potrà perdersi tra le tazze del Cappellaio Matto a Fantasyland o cercare le Principesse al Pavilion. Ci riuniremo (il Merge) per i momenti iconici: il pranzo al Casey’s Corner su Main Street, la parata pomeridiana e, ovviamente, lo spettacolo finale Disney Dreams! proiettato sul castello. Il giorno dedicato ai Walt Disney Studios seguirà la stessa logica, tra l'Avengers Campus e il mondo di Pixar con Ratatouille.",
+      "image": "/images/parigi-disneyland-3.jpg"
+    },
+    {
+      "title": "6. Sopravvivenza gastronomica nel resort",
+      "content": "Mangiare a Disneyland può prosciugare rapidamente le risorse. Per tentare di rientrare nei 1.000 euro preventivati per il cibo in sei persone per l'intero viaggio, la parola d'ordine è **Quick Service**. Dimenticate i lunghi pranzi serviti al tavolo: punteremo su hot dog, pizza alla Bella Notte o cucina messicana alla Fuente Del Oro. Le cene al Disney Village saranno il momento per rilassarsi, magari da Annette’s Diner con la sua atmosfera anni '50 e i camerieri sui pattini, oppure all'Earl of Sandwich per un'opzione più rapida. Un consiglio utile: portate borracce riutilizzabili. L'acqua a Parigi e nei parchi è potabile e gratuita, un risparmio semplice che su cinque giorni pesa positivamente sul bilancio.",
+      "image": "/images/parigi-disneyland-4.jpg"
+    },
+    {
+      "title": "7. Il verdetto finale: I conti della serva",
+      "content": "Siamo partiti con un'idea nata davanti a una pizza e un budget di 6.000 euro (3.000 euro a famiglia). A conti fatti, la previsione è realistica ma richiede una gestione attenta. La ripartizione è netta: 3.400 euro sono assorbiti esclusivamente dall'hotel Disney (1.800 euro) e dai biglietti per i parchi (1.600 euro per tre giorni). I restanti 2.600 euro servono a coprire i voli, l'alloggio a Parigi, i trasporti locali e tutto il vitto. È un viaggio impegnativo per festeggiare la fine della prima elementare, ma dimostra che con una pianificazione accurata la distanza tra una chiacchierata informale e il selfie di gruppo davanti al castello Disney è più breve di quanto si immagini.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il Travel Plan Parigi e Disney (PDF)",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_ParigiDisney.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
+      }
+    }
+  ]
 }  
 ]
