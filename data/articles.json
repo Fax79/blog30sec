@@ -1033,8 +1033,8 @@
 },
 {
   "slug": "parigi-disneyland-fine-scuola",
-  "section": "family-edition",
-  "section_label": "Family Edition",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
   "category": "family-edition",
   "category_label": "Family Edition",
   "meta_title": "Parigi e Disneyland in 6: Il piano di fine prima elementare",
@@ -1106,6 +1106,71 @@
         "icon": "📄",
         "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
+    }
+  ]
+},
+{
+  "slug": "confronto-assicurazioni-viaggio",
+  "section": "travel-tips",
+  "section_label": "Travel tips",
+  "category": "consigli-utili",
+  "category_label": "Consigli utili",
+  "meta_title": "Assicurazioni Viaggio a Confronto: Quale Scegliere nel 2026?",
+  "meta_description": "Analisi tecnica e confronto tra Heymondo, Columbus, Viaggi Sicuri e Coverwise. Scopri quale polizza si adatta meglio al tuo profilo di viaggiatore.",
+  "hero_image": "/images/assicurazioni-viaggio-hero.jpg",
+  "hero_title": "ASSICURAZIONI VIAGGIO: IL CONFRONTO DEFINITIVO",
+  "intro_text": "Analizziamo i giganti delle polizze viaggio per capire chi offre la protezione migliore per le tue esigenze.",
+  "author": "Martina - Chief Family Officer",
+  "date": "12 Maggio 2026",
+  "read_time": "12 min read",
+  "sections": [
+    {
+      "title": "1. Perché l'assicurazione non è un optional",
+      "content": "Partire senza un'assicurazione sanitaria e di viaggio non è un risparmio, è un **azzardo matematico**. Quando ti muovi in quattro, magari incrociando il bisogno di indipendenza di un'adolescente con l'imprevedibilità assoluta di un bambino piccolo, l'imprevisto smette di essere una probabilità remota e diventa una _variabile da gestire con rigore_. Che si tratti di un volo cancellato, di un bagaglio smarrito o della necessità di un consulto medico oltreoceano, la polizza giusta fa la differenza tra un contrattempo risolvibile e un buco nel budget.\n\nNon esiste un'assicurazione universalmente superiore, ma ognuna di queste quattro compagnie ha sviluppato caratteristiche uniche per un target specifico. Analizziamo i dettagli per capire quale si adatta meglio al tuo prossimo viaggio."
+    },
+    {
+      "title": "2. Heymondo: Il coltellino svizzero per famiglie e viaggiatori tech",
+      "content": "Heymondo ha letteralmente scosso il mercato puntando tutto su un'infrastruttura tecnologica impeccabile. Il loro ecosistema ruota attorno a un'app proprietaria che trasforma lo smartphone in un vero e proprio _centro di assistenza portatile_.\n\n**Perché è top:** L'app permette di chiamare l'assistenza medica gratuitamente utilizzando solo una connessione Wi-Fi. Se ti trovi fuori dall'Europa e non hai traffico telefonico, ti basta agganciarti al Wi-Fi dell'hotel per parlare con un medico in italiano. Inoltre, offre una chat medica h24, perfetta per i dubbi pediatrici improvvisi che non richiedono una corsa in ospedale.\n\n**I dettagli tecnici:** Nessun anticipo di spesa richiesto (la compagnia paga direttamente la struttura ospedaliera), copertura automatica per il Covid-19 e massimali altissimi che raggiungono i 10 milioni di euro per le destinazioni più a rischio come USA e Canada.\n\n**Il Target Perfetto:** Ideale per le famiglie che vogliono un contatto immediato con i medici senza stress burocratici, e per chi viaggia intercontinentale.",
+      "widget": {
+        "type": "banner",
+        "label": "Scopri Heymondo con lo sconto del 10%",
+        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=BLOGCOMPARE&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
+        "image": "/banners/heymondo-banner.png"
+      }
+    },
+    {
+      "title": "3. Columbus Assicurazioni: L'hub per i frequent flyer e i nomadi digitali",
+      "content": "Columbus è un pilastro delle assicurazioni dirette in Italia, con una reputazione costruita su una centrale operativa estremamente reattiva e condizioni contrattuali chiare. Non puntano sull'effetto wow dell'app, ma sulla _solidità della copertura_ per chi viaggia spesso e ha esigenze ampie.\n\n**Perché è top:** È una delle poche compagnie che offre un'eccellente copertura per il ritardo dei voli e, soprattutto, un'opzione integrabile dedicata alla protezione di smartphone, tablet e laptop (fondamentale per chi lavora in viaggio o viaggia con molta attrezzatura tech).\n\n**I dettagli tecnici:** La loro polizza \"Annuale Multiviaggio\" ha un rapporto qualità-prezzo difficilmente battibile se prevedi di uscire dai confini nazionali più di due o tre volte in un anno. Anche qui troviamo l'assistenza h24 in italiano e il pagamento diretto delle spese mediche.\n\n**Il Target Perfetto:** Ottima per i nomadi digitali, per chi porta con sé attrezzatura elettronica di valore e per chi ama programmare molteplici viaggi durante l'anno sbrigando la pratica assicurativa una volta sola.",
+      "widget": {
+        "type": "banner",
+        "label": "Preventivo veloce con Columbus",
+        "url": "https://clk.tradedoubler.com/click?p=76623&a=3480952&g=26056222",
+        "image": "https://imp.tradedoubler.com/imp?type(img)g(26056222)a(3480952)"
+      }
+    },
+    {
+      "title": "4. Viaggi Sicuri: Il salvagente low-cost per i viaggiatori pragmatici",
+      "content": "Come suggerisce il nome, Viaggi Sicuri va dritta al sodo. È la compagnia che ha deciso di _tagliare il superfluo_ per concentrarsi sulla pura protezione medica, offrendo premi assicurativi che sfidano qualsiasi concorrente.\n\n**Perché è top:** È il trionfo della sostanza sulla forma. Permette di assicurarsi per viaggi lunghi o verso destinazioni costose con premi base bassissimi. E la genialata sta nella modularità: ti offrono un prezzo stracciato con una franchigia, ma ti permettono di azzerarla con un piccolo supplemento (l'opzione **Esonero Franchigia**), dandoti il pieno controllo sul costo finale.\n\n**I dettagli tecnici:** Copre le spese mediche con massimali molto generosi e include il rimpatrio sanitario. Le condizioni sono rigorose, quindi è bene leggere il set informativo per capire esattamente cosa è incluso (ad esempio, la copertura bagaglio è spesso opzionale o basilare).\n\n**Il Target Perfetto:** I backpacker, gli studenti in viaggio e chiunque abbia impostato un file Excel con un budget severissimo, ma sia consapevole che sulla salute non si scherza.",
+      "widget": {
+        "type": "banner",
+        "label": "Assicurati al miglior prezzo con Viaggi Sicuri",
+        "url": "https://clk.tradedoubler.com/click?p=249882&a=3480952&g=25762196",
+        "image": "https://imp.tradedoubler.com/imp?type(img)g(25762196)a(3480952)"
+      }
+    },
+    {
+      "title": "5. Coverwise: La corazzata di AXA per i road trip e i weekend europei",
+      "content": "Coverwise non è una semplice agenzia, ma opera appoggiandosi alla solidità mastodontica del gruppo **AXA Partners**. Scegliere loro significa avere alle spalle una delle reti di assistenza medica e logistica più capillari del pianeta.\n\n**Perché è top:** Offre pacchetti super competitivi per i viaggi all'interno del bacino del Mediterraneo e in Europa. Se organizzi un road trip o un weekend lungo, i loro premi per la copertura continentale sono eccellenti. Inoltre, la loro polizza **Tutto Incluso** è un pacchetto _chiavi in mano_ che ti toglie ogni pensiero logistico.\n\n**I dettagli tecnici:** Gestione dei sinistri estremamente strutturata e moduli extra facilmente aggiungibili, come l'indispensabile estensione per gli sport invernali o l'annullamento del viaggio.\n\n**Il Target Perfetto:** Perfetta per le fughe nel Vecchio Continente, per le settimane bianche e per chiunque cerchi la tranquillità psicologica di affidarsi a un colosso assicurativo tradizionale.",
+      "widget": {
+        "type": "banner",
+        "label": "Polizze Coverwise: Affidabilità AXA",
+        "url": "https://clk.tradedoubler.com/click?p=271132&a=3480952&g=24308728",
+        "image": "https://imp.tradedoubler.com/imp?type(img)g(24308728)a(3480952)"
+      }
+    },
+    {
+      "title": "Il Verdetto",
+      "content": "Non esiste la polizza perfetta in assoluto, ma esiste quella _perfetta per il singolo viaggio_. Se l'itinerario prevede destinazioni lontane e complesse come gli Stati Uniti o il Giappone, l'app di **Heymondo** o la solidità di **Columbus** offrono le garanzie necessarie. Se invece la meta è una capitale europea per un weekend lungo, le tariffe agili di **Viaggi Sicuri** e **Coverwise** svolgono egregiamente il lavoro, lasciando più margine nel portafoglio per godersi la destinazione."
     }
   ]
 }  
