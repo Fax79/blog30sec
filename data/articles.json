@@ -1,73 +1,73 @@
 [
   {
-    "slug": "budapest-ai-challenge",
-    "section": "ai-experiment",
-    "section_label": "Esperimenti AI",
-    "category": "budget-travel",
-    "category_label": "Budget Travel",
-    "meta_title": "Budapest Low Cost: La sfida all'AI da 250€ - 30SecondsToGuide Blog",
-    "meta_description": "Ho chiesto all'intelligenza artificiale di organizzare un weekend a Budapest con 250€. Ecco l'itinerario, i voli e le gemme nascoste che ha trovato.",
-    "hero_image": "/images/budapest-hero.jpg",
-    "hero_title": "AI VS REALITY: BUDAPEST",
-    "intro_text": "Abbiamo messo alla prova il nostro Itinerary Wizard: è possibile vivere un weekend autentico a Budapest con meno di 250€ a testa senza rinunciare a nulla? Ecco i risultati della nostra sfida.",
-    "author": "Fabio - Tech Traveler",
-    "date": "25 Gennaio 2026",
-    "read_time": "5 min read",
-    "sections": [
-      {
-        "title": "La Sfida: Cosa abbiamo chiesto all'AI",
-        "content": "Esiste un pregiudizio comune secondo cui l'Intelligenza Artificiale tenda a restituire percorsi standardizzati, ideali per il 'turista medio' ma privi di anima. Per smentire questa tesi, abbiamo deciso di sottoporre il nostro Itinerary Wizard a uno stress test senza precedenti, inserendo parametri estremamente restrittivi che obbligassero l'algoritmo a scavare nelle pieghe meno note della capitale ungherese.\n\nI vincoli impostati per la simulazione erano chiari: una spedizione di coppia per il weekend dal 17 al 19 aprile 2026 (piena stagione primaverile) con un tetto massimo di spesa di 500€ totali, inclusi voli, alloggio, pasti e trasporti. Ma non ci siamo fermati qui. Abbiamo inserito delle 'black list' categoriche: il sistema doveva ignorare le iconiche Terme Széchenyi e il celebre Ruin Pub Szimpla Kert, simboli del turismo di massa, per scovare invece luoghi frequentati dai residenti. La missione includeva inoltre la ricerca del miglior street food locale, come il Lángos, e una logistica ottimizzata con partenza obbligatoria da Milano.\n\nPrima di scoprire come l'AI ha gestito queste restrizioni, puoi consultare il documento integrale prodotto in pochi secondi:",
-        "widget": {
-          "type": "button",
-          "label": "Scarica il PDF originale del Travel Plan",
-          "subtitle": "File generato dall'AI (PDF)",
-          "url": "/downloads/Itinerary_Budapest.pdf",
-          "icon": "📄",
-          "colorClass": "bg-red-50 text-red-700 border border-red-200"
-        }
-      },
-      {
-        "title": "Il Piano di Volo: Orio è la chiave",
-        "content": "La prima grande sfida di ogni viaggio low-cost è il trasporto aereo. Con un budget così limitato, l'AI ha operato una scelta strategica netta, identificando nell'aeroporto di Milano Orio al Serio (BGY) l'unico hub in grado di garantire la sostenibilità finanziaria del viaggio. Scartando le opzioni più costose di Linate e Malpensa, il Wizard ha puntato sulle tariffe competitive di vettori come Ryanair e Wizz Air.\n\nPer le date selezionate, la stima prodotta oscilla tra i 100€ e i 160€ complessivi per due passeggeri, una previsione estremamente accurata se si prenota con il giusto anticipo. Oltre al prezzo, l'algoritmo ha ottimizzato i tempi di permanenza: suggerisce la partenza all'alba del venerdì per massimizzare la prima giornata e il rientro con l'ultimo volo della domenica. Per il trasferimento aeroportuale, il piano indica correttamente l'utilizzo del bus 100E, il collegamento più rapido ed economico tra il centro città e il terminal, evitando i costi proibitivi dei transfer privati o dei taxi.",
-        "widget": {
-          "type": "script",
-          "label": "Verifica prezzi voli in tempo reale",
-          "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&locale=it&default_origin=BGY&default_destination=BUD&stops=any&show_hotels=true&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
-        }
-      },
-      {
-        "title": "Dove dormire: La strategia del Distretto VII",
-        "content": "Molti itinerari economici tendono a suggerire alloggi in periferia, costringendo i viaggiatori a lunghi spostamenti e spese extra nei trasporti. Il nostro Wizard ha invece adottato una logica inversa: rimanere nel baricentro della città, il Distretto VII (Erzsébetváros), ma selezionando strutture 'smart' che bilanciano prezzo e design. \n\nL'algoritmo ha individuato opzioni di alto livello come il Maverick City Lodge o il Wombat's City Hostel, suggerendo l'uso di camere private per mantenere il comfort di coppia pur restando entro una spesa stimata di circa 110€ per l'intero soggiorno. Questa posizione è cruciale: trovarsi a pochi passi dalle principali attrazioni e dai locali notturni permette di eliminare totalmente la necessità di taxi o mezzi pubblici notturni, reinvestendo quel risparmio in esperienze gastronomiche o ingressi culturali. Si vive l'atmosfera vibrante del quartiere ebraico stando esattamente dove le cose accadono.",
-        "widget": {
-          "type": "banner",
-          "label": "Vedi offerte Hotel Budapest su Expedia",
-          "url": "https://www.expedia.it/Hotel-Search?destination=Centro%20citt%C3%A0%20di%20Budapest%2C%20Budapest%2C%20Ungheria&regionId=6200286&latLong=47.496422%2C19.054053&d1=2026-01-26&startDate=2026-04-17&d2=2026-01-31&endDate=2026-04-19&adults=2&rooms=1&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false&children=&pwaDialog=&daysInFuture&stayLength",
-          "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/143500190.jpg?k=bdc4b5a974d306a59caac36640012bc46a6fb8380e649eee5b5fd8db840b878a&o="
-        }
-      },
-      {
-        "title": "Il Wizard contro le Trappole per Turisti",
-        "content": "La vera prova di intelligenza del sistema è emersa nella gestione del tempo libero e della cultura, dove ha saputo declinare i nostri divieti in opportunità uniche. Sul fronte benessere, avendo escluso le Széchenyi, l'AI ci ha guidato verso le storiche Terme Király e le affascinanti Terme Rudas. In particolare, ha evidenziato un dettaglio fondamentale spesso ignorato dai turisti: alle Rudas vige ancora la tradizione dei giorni separati per genere nella parte turca antica, un'informazione che evita disguidi all'ingresso.\n\nPer quanto riguarda la vita notturna, l'alternativa al Szimpla Kert è stata individuata nel complesso Fogas Ház / Instant, dove l'essenza dei ruin pub è ancora palpabile e meno artefatta. Infine, la pianificazione ha dimostrato una profonda conoscenza logistica segnalando che il Grande Mercato Coperto è chiuso la domenica; l'AI ha quindi riorganizzato l'itinerario suggerendo di dedicare il sabato mattina ai sapori locali e proponendo mercati rionali alternativi meno battuti per la domenica, garantendo così un'immersione costante nella quotidianità ungherese senza mai trovarsi davanti a una porta sbarrata.",
-        "widget": {
-          "type": "banner",
-          "label": "Biglietti Salta Fila Budapest",
-          "url": "https://tiqets.tpx.lt/iZ2iNkG3",
-          "image": "/banners/budapest-tiqets-banner.png"
-        }
-      },
-      {
-        "title": "Verdetto Finale: Budget Rispettato?",
-        "content": "Al termine della simulazione, l'analisi dei costi operata dal Wizard è risultata di una precisione chirurgica, attestandosi esattamente sulla soglia dei 500€ per la coppia. La ripartizione suggerita prevede circa 120€ per i voli, 110€ per il pernottamento, 150€ dedicati alla scoperta culinaria (con particolare attenzione allo street food e ai Lángos) e 120€ per i trasporti urbani e gli ingressi alle terme o ai musei.\n\nIl successo di questo esperimento non risiede solo nel rispetto del budget, ma nella capacità dell'Intelligenza Artificiale di interpretare lo spirito del viaggio. Il piano non si è limitato a elencare monumenti, ma ha fornito una vera e propria strategia di sopravvivenza urbana e culturale. Il risultato è un weekend autentico, lontano dai percorsi fotocopiati e perfettamente calibrato sulle esigenze di chi vuole scoprire l'anima di Budapest senza spendere una fortuna. La sfida è vinta: l'AI è ora uno strumento indispensabile per il viaggiatore consapevole.",
-        "widget": {
-          "type": "button",
-          "label": "CREA IL TUO ITINERARIO CON AI ➜",
-          "subtitle": "Gratis, Istantaneo e Personalizzato",
-          "url": "https://www.30secondstoguide.it",
-          "icon": "🧙‍♂️",
-          "colorClass": "bg-orange-50 text-orange-700 border border-orange-200"
-        }
+  "slug": "budapest-ai-challenge",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
+  "category": "budget-travel",
+  "category_label": "Budget Travel",
+  "meta_title": "Budapest Low Cost: La sfida all'AI da 250€ - 30SecondsToGuide Blog",
+  "meta_description": "Ho chiesto all'intelligenza artificiale di organizzare un weekend a Budapest con 250€. Ecco l'itinerario, i voli e le gemme nascoste che ha trovato.",
+  "hero_image": "/images/budapest-hero.jpg",
+  "hero_title": "AI VS REALITY: BUDAPEST",
+  "intro_text": "Abbiamo messo alla prova il nostro Itinerary Wizard: è possibile vivere un weekend autentico a Budapest con meno di 250€ a testa senza rinunciare a nulla? Ecco i risultati della nostra sfida.",
+  "author": "Fabio - Tech Traveler",
+  "date": "25 Gennaio 2026",
+  "read_time": "5 min read",
+  "sections": [
+    {
+      "title": "La Sfida: Cosa abbiamo chiesto all'AI",
+      "content": "Esiste un pregiudizio comune secondo cui l'Intelligenza Artificiale tenda a restituire **percorsi standardizzati**, ideali per il 'turista medio' ma privi di anima. Per smentire questa tesi, abbiamo deciso di sottoporre il nostro Itinerary Wizard a uno **stress test senza precedenti**, inserendo parametri estremamente restrittivi che obbligassero l'algoritmo a scavare nelle pieghe meno note della capitale ungherese.\n\nI vincoli impostati per la simulazione erano chiari: una spedizione di coppia per il weekend dal **17 al 19 aprile 2026** (piena stagione primaverile) con un **tetto massimo di spesa di 500€ totali**, inclusi voli, alloggio, pasti e trasporti. Ma non ci siamo fermati qui. Abbiamo inserito delle **'black list' categoriche**: il sistema doveva ignorare le iconiche Terme Széchenyi e il celebre Ruin Pub Szimpla Kert, simboli del turismo di massa, per scovare invece **luoghi frequentati dai residenti**. La missione includeva inoltre la ricerca del miglior street food locale, come il **Lángos**, e una logistica ottimizzata con partenza obbligatoria da Milano.\n\nPrima di scoprire come l'AI ha gestito queste restrizioni, puoi consultare il documento integrale prodotto in pochi secondi:",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il PDF originale del Travel Plan",
+        "subtitle": "File generato dall'AI (PDF)",
+        "url": "/downloads/Itinerary_Budapest.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
-    ]
+    },
+    {
+      "title": "Il Piano di Volo: Orio è la chiave",
+      "content": "La prima grande sfida di ogni viaggio low-cost è il trasporto aereo. Con un budget così limitato, l'AI ha operato una scelta strategica netta, identificando nell'aeroporto di **Milano Orio al Serio (BGY)** l'unico hub in grado di garantire la sostenibilità finanziaria del viaggio. Scartando le opzioni più costose di Linate e Malpensa, il Wizard ha puntato sulle **tariffe competitive** di vettori come Ryanair e Wizz Air.\n\nPer le date selezionate, la stima prodotta oscilla **tra i 100€ e i 160€ complessivi per due passeggeri**, una previsione estremamente accurata se si prenota con il giusto anticipo. Oltre al prezzo, l'algoritmo ha ottimizzato i tempi di permanenza: suggerisce la **partenza all'alba del venerdì** per massimizzare la prima giornata e il rientro con l'ultimo volo della domenica. Per il trasferimento aeroportuale, il piano indica correttamente l'utilizzo del **bus 100E**, il collegamento più rapido ed economico tra il centro città e il terminal, evitando i costi proibitivi dei transfer privati o dei taxi.",
+      "widget": {
+        "type": "script",
+        "label": "Verifica prezzi voli in tempo reale",
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&locale=it&default_origin=BGY&default_destination=BUD&stops=any&show_hotels=true&powered_by=true&border_radius=0&plain=true&color_button=%2300A991&color_button_text=%23ffffff&promo_id=3414&campaign_id=111"
+      }
+    },
+    {
+      "title": "Dove dormire: La strategia del Distretto VII",
+      "content": "Molti itinerari economici tendono a suggerire alloggi in periferia, costringendo i viaggiatori a lunghi spostamenti e spese extra nei trasporti. Il nostro Wizard ha invece adottato una logica inversa: rimanere nel baricentro della città, il **Distretto VII (Erzsébetváros)**, ma selezionando strutture 'smart' che bilanciano prezzo e design.\n\nL'algoritmo ha individuato opzioni di alto livello come il Maverick City Lodge o il Wombat's City Hostel, suggerendo l'uso di camere private per mantenere il comfort di coppia pur restando entro una spesa stimata di **circa 110€ per l'intero soggiorno**. Questa posizione è cruciale: trovarsi **a pochi passi dalle principali attrazioni** e dai locali notturni permette di eliminare totalmente la necessità di taxi o mezzi pubblici notturni, reinvestendo quel risparmio in esperienze gastronomiche o ingressi culturali. Si vive l'atmosfera vibrante del quartiere ebraico stando esattamente dove le cose accadono.",
+      "widget": {
+        "type": "banner",
+        "label": "Vedi offerte Hotel Budapest su Expedia",
+        "url": "https://www.expedia.it/Hotel-Search?destination=Centro%20citt%C3%A0%20di%20Budapest%2C%20Budapest%2C%20Ungheria&regionId=6200286&latLong=47.496422%2C19.054053&d1=2026-01-26&startDate=2026-04-17&d2=2026-01-31&endDate=2026-04-19&adults=2&rooms=1&sort=RECOMMENDED&theme=&userIntent=&semdtl=&categorySearch=&useRewards=false&children=&pwaDialog=&daysInFuture&stayLength",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/143500190.jpg?k=bdc4b5a974d306a59caac36640012bc46a6fb8380e649eee5b5fd8db840b878a&o="
+      }
+    },
+    {
+      "title": "Il Wizard contro le Trappole per Turisti",
+      "content": "Il venerdì si apre con una passeggiata per ammirare le guglie neogotiche del **Parlamento** dall'esterno, per poi incamminarsi lungo il Danubio fino a incontrare le **\"Scarpe sulla Riva del Danubio\"**, un memoriale incredibilmente toccante composto da calzature in ghisa che ricorda gli ebrei uccisi durante la Seconda Guerra Mondiale. Da qui, l'itinerario punta verso la **Basilica di Santo Stefano**, suggerendo di investire un piccolo costo d'ingresso per salire sulla cupola e godere di una vista panoramica sull'intera capitale. La sera, ignorando la folla del più noto Szimpla Kert, l'AI ci dirotta saggiamente verso Ruin Pubs dall'atmosfera altrettanto vivace ma meno turistica, come il **Fogas Ház o l'Instant**. Questi locali, nati all'interno di palazzi abbandonati e arredati con mobili di recupero, rappresentano l'essenza della rinascita post-sovietica della città.\n\nIl sabato è dedicato alla collina di Buda: si attraversa a piedi l'iconico **Ponte delle Catene** e si sale al **Castello**, passeggiando tra le arcate fiabesche del Bastione dei Pescatori e ammirando l'esterno della Chiesa di Mattia. Dopo un pranzo leggero in un chiosco locale, arriva il momento del relax termale. Evitando le Széchenyi, il piano consiglia i bagni di epoca ottomana, suggerendo le **Terme Király** o le **Terme Rudas**. Qui l'intelligenza artificiale sfodera un dettaglio vitale: la parte turca più antica e suggestiva delle Terme Rudas osserva ancora rigide regole tradizionali, prevedendo **giorni di ingresso separati per uomini e donne**. La giornata si chiude nel Distretto VI con una cena robusta in un \"kisvendéglő\", un tipico e minuscolo ristorante tradizionale, seguita da una passeggiata digestiva sotto i palazzi eclettici e i viali alberati dell'elegante **Andrássy Út**.\n\nLa domenica, prima della partenza, l'itinerario spinge verso la grandiosità di **Piazza degli Eroi** e il vasto **Parco Civico**, esplorando l'esterno del Castello di Vajdahunyad, un complesso affascinante progettato per racchiudere in un solo luogo tutti gli stili architettonici dell'Ungheria. Avendo calcolato intelligentemente che la domenica il Grande Mercato Coperto è chiuso, il Wizard riorganizza il pranzo dirottandoci verso **mercati rionali alternativi** o street food. Il pomeriggio regala un ultimo sussulto di bellezza davanti alla maestosa facciata della **Sinagoga di Via Dohány**, la più grande d'Europa, prima di riprendere il bus 100E verso l'aeroporto.",
+      "widget": {
+        "type": "banner",
+        "label": "Biglietti Salta Fila Budapest",
+        "url": "https://tiqets.tpx.lt/iZ2iNkG3",
+        "image": "/banners/budapest-tiqets-banner.png"
+      }
+    },
+    {
+      "title": "Verdetto Finale: Budget Rispettato?",
+      "content": "Esplorare Budapest significa anche immergersi nei suoi sapori decisi ed economici. L'itinerario insiste sulla necessità di assaggiare il **Lángos**, una goduriosa frittella di patate e farina spesso ricoperta di panna acida e formaggio fuso, perfetta per lo street food. Ad accompagnarlo, l'invito è a provare le salsicce **\"kolbász\"** e i sanguinacci **\"hurka\"**, o prodotti da forno ideali per la colazione come i pani a mezzaluna \"kifli\" e le focaccine salate \"pogácsa\". Per i pasti principali, il piano raccomanda il classico **Gulyás**, l'iconica zuppa sostanziosa della tradizione contadina, o la ricca zuppa di pesce **Halászlé**, chiudendo il tutto con assaggi di birra locale, dell'amaro alle erbe **Unicum** e di un goccio del forte distillato di frutta **Pálinka**. E per i più golosi, una dolce **Kürtőskalács**, la famosa torta a camino cotta sullo spiedo.\n\nAl termine della simulazione, l'analisi dei costi operata dal Wizard si è rivelata estremamente precisa. La ripartizione finanziaria suggerita prevede:\n- **Voli A/R:** 120 EUR totali (60 EUR a persona).\n- **Alloggio:** 110 EUR per due notti in strutture budget.\n- **Trasporti locali:** 32 EUR complessivi, che coprono l'autobus 100E per l'aeroporto e un abbonamento di 72 ore calcolato a 6 EUR per persona.\n- **Terme:** 38 EUR totali per l'ingresso in due alle Király o alle Rudas.\n- **Cibo e bevande:** 150 EUR, stimando un'agile spesa di 25 EUR a persona al giorno per tre giorni tra street food e ristoranti locali.\n- **Extra:** Un buffer di 50 EUR per accessi minori, come la cupola della Basilica o la funicolare.\n\nIl risultato? Esattamente **500 EUR**. Un budget stretto, reale, ma perfettamente sufficiente per trasformare una semplice visita in un'avventura autentica.",
+      "widget": {
+        "type": "button",
+        "label": "CREA IL TUO ITINERARIO CON AI ➜",
+        "subtitle": "Gratis, Istantaneo e Personalizzato",
+        "url": "https://www.30secondstoguide.it",
+        "icon": "🧙‍♂️",
+        "colorClass": "bg-orange-50 text-orange-700 border border-orange-200"
+      }
+    }
+  ]
 },
   {
     "slug": "vienna-praga-treno",
