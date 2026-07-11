@@ -1378,6 +1378,18 @@
       }
     },
     {
+      "title": "",
+      "content": "",
+      "widget": {
+        "type": "button",
+        "label": "Scarica il Travel Plan in Albania PDF",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Albania.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
+      }
+    },
+    {
       "title": "L'errore che può rovinarvi la vacanza (e il portafoglio)",
       "content": "C'è un ultimo, fondamentale, pezzo del puzzle strategico. Guardando la scomposizione dei costi, c'è una voce di 60€ che potrebbe sembrare trascurabile. È la voce dedicata alla connettività (eSIM) e all'**Assicurazione Medica**. Lasciate che vi sveli un segreto che molti ignorano: **L'Albania è EXTRA-UE**. Significa che la vostra rassicurante tessera sanitaria italiana qui non ha alcun valore. Se per l'emozione (o per una buca) prendete una storta camminando per i vicoli di Berat, o se il sole di agosto vi gioca un brutto scherzo, l'unica opzione è la clinica privata. E i costi, vi assicuro, sono da capogiro. Da *Couple Strategist*, il mio compito è proteggere non solo il vostro romanticismo, ma anche le vostre finanze. Spendere 2.000€ per un road trip magnifico e rischiare di indebitarsi per aver risparmiato 30€ di assicurazione è una follia. Noi viaggiamo (e facciamo viaggiare) solo con **Heymondo**: pagano direttamente le strutture ospedaliere senza farvi anticipare un centesimo, e con l'app potete consultare un medico in italiano direttamente dal Wi-Fi della vostra guesthouse. Zero stress, massima protezione.",
       "image": "/images/albania-2.jpg",
@@ -1395,7 +1407,7 @@
         "type": "banner",
         "label": "Assicurazione Viaggio Heymondo Sconto 10%",
         "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=BLOGTIRANA&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
-        "image": "/images/heymondo-banner-standard.png"
+        "image": "/banners/heymondo-banner.png"
       }
     },
     {
@@ -1403,9 +1415,11 @@
       "content": "L'Albania è pronta a regalarvi uno dei road trip più belli della vostra vita di coppia. Richiede solo un pizzico di astuzia nella scelta delle tappe e molta onestà sui costi reali. Siete pronti a mettervi al volante?",
       "widget": {
         "type": "button",
-        "label": "SCARICA IL PDF CON L'ITINERARIO COMPLETO ➜",
-        "subtitle": "Tutte le tappe e i costi del road trip in Albania",
-        "link": "/downloads/Itinerary_Albania.pdf"
+        "label": "CREA IL TUO ROAD TRIP IN ALBANIA ➜",
+        "subtitle": "Gratis, Istantaneo e Personalizzato",
+        "url": "https://www.30secondstoguide.it",
+        "icon": "🚗",
+        "colorClass": "bg-orange-50 text-orange-700 border border-orange-200"
       }
     }
   ]
