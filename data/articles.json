@@ -753,10 +753,10 @@
 },
 {
   "slug": "islanda-epic-journey-4x4-highlands",
-  "section": "epic-journeys",
-  "section_label": "Epic Journeys",
-  "category": "adventure",
-  "category_label": "Adventure",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
+  "category": "epic-journeys",
+  "category_label": "Epic Journeys",
   "meta_title": "Islanda Wild: Spedizione in 4x4 tra Highlands e Ring Road",
   "meta_description": "Un itinerario epico di 10 giorni in Islanda: tenda da tetto, piste 4x4 nelle Highlands e tutta la Ring Road. La sfida del budget e i consigli tecnici dell'AI.",
   "hero_image": "/images/islanda-hero.jpg",
@@ -931,8 +931,8 @@
 },
 {
   "slug": "marrakech-backtest-realta-vs-itinerary-wizard",
-  "section": "ai-experiment",
-  "section_label": "Esperimenti AI",
+  "section": "real-story",
+  "section_label": "Storie Reali",
   "category": "family-edition",
   "category_label": "Family Edition",
   "meta_title": "Marrakech Backtest: La realtà di un viaggio programmato con l'IA",
@@ -1327,5 +1327,87 @@
         }
       }
     ]
-  }
+  },
+  {
+  "slug": "albania-agosto-road-trip-coppia-costi",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
+  "category": "budget-travel",
+  "category_label": "Budget Travel",
+  "meta_title": "Albania ad Agosto: Costi Reali e Itinerario di Coppia - 30SecondsToGuide Blog",
+  "meta_description": "Un road trip di coppia in Albania ad agosto con 600€? Abbiamo messo alla prova l'AI. Scopri itinerario, costi reali e perché l'assicurazione è vitale.",
+  "hero_image": "/images/albania-hero.jpg",
+  "hero_title": "AI VS REALITY: ALBANIA ON THE ROAD",
+  "intro_text": "Albania on the road a Ferragosto: l'intelligenza artificiale svela i costi reali.",
+  "author": "Eros - Couple Travel Strategist",
+  "date": "14 Luglio 2026",
+  "read_time": "5 min read",
+  "sections": [
+    {
+      "title": "L'itinerario: Oltre le trappole per turisti",
+      "content": "Immagina la scena: tu, la tua dolce metà, un'auto a noleggio e il vento caldo dell'estate balcanica che entra dai finestrini. Davanti a voi, le strade tortuose del Passo di Llogara che si aprono all'improvviso su una distesa infinita di mare turchese. L'Albania on the road è diventata il grande sogno di fine estate per le coppie italiane. E sulla carta, spulciando i reel di Instagram, sembra tutto perfetto e, soprattutto, incredibilmente economico. Ma cosa succede quando provi a organizzare questo sogno nella settimana più calda dell'anno, quella di Ferragosto, con un budget di 600€ a testa? Abbiamo deciso di scoprirlo, lasciando che il nostro Itinerary Wizard tracciasse la rotta perfetta per due. Il viaggio parte da **Tirana**, vibrante e caotica, per poi scivolare dolcemente verso sud. La prima vera tappa romantica è **Berat**, la \"Città dalle mille finestre\". Arrivare qui al tramonto, passeggiando mano nella mano tra le antiche case ottomane bianche che si tingono di rosa, vale da solo il prezzo del biglietto. Ma il richiamo del mare ad agosto è troppo forte. Invece di puntare dritti verso Ksamil (che l'AI ci ha saggiamente sconsigliato perché ormai troppo caotica e costosa a Ferragosto), l'itinerario ci dirotta verso perle meno battute come **Dhermi** e **Himara**. Il momento clou del viaggio? Un'escursione in barca partendo dalla baia di Porto Palermo, per esplorare grotte marine segrete e calette inaccessibili via terra, dove tuffarsi in un'acqua che non ha nulla da invidiare alle Maldive. Ad agosto, contrattare i prezzi delle barche al porto sotto il sole cocente è il modo migliore per iniziare una discussione di coppia. **Prenotate la vostra escursione in anticipo online**: vi assicurate il posto, sapete già quanto spendete e fate pure una bellissima sorpresa al partner.",
+      "image": "/images/albania-1.jpg",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Esperienze Consigliate in Albania",
+        "image": "/banners/GYG-banner.png",
+        "links": [
+          {
+            "name": "Castello di Berat",
+            "url": "https://gyg.me/qSgrLmrx"
+          },
+          {
+            "name": "Spiagge e tesori nascosti di Himare",
+            "url": "https://gyg.me/201HnF6Q"
+          },
+          {
+            "name": "Tour in jeep di Saranda",
+            "url": "https://gyg.me/5TfVEKw0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Il \"Reality Check\": Quanto costa davvero questo sogno?",
+      "content": "Ed è qui, tra un tramonto a Berat e un tuffo a Himara, che dobbiamo toglierci gli occhiali da sole e guardare i numeri. Quando abbiamo inserito nel nostro Itinerary Wizard il famoso budget di 1.200€ totali per la settimana di Ferragosto, l'algoritmo non ci ha assecondato. Ha fatto scattare l'allarme rosso: **Budget Insufficiente**. L'Albania low-cost di dieci anni fa, a Ferragosto, semplicemente non esiste più. Voli senza sconti, auto a noleggio (indispensabile per un road trip degno di questo nome) e guesthouse caratteristiche hanno fatto lievitare la stima reale a circa **2.110€ per la coppia**. Può sembrare una doccia fredda, ma in realtà è il motivo per cui amo il nostro Wizard: non ti vende illusioni. Ti permette di pianificare un viaggio mozzafiato sapendo esattamente cosa aspettarti, senza il rischio di ritrovarti a mangiare cracker gli ultimi tre giorni per aver prosciugato il conto condiviso.",
+      "widget": {
+        "type": "banner",
+        "label": "Prenota Noleggio Auto Albania",
+        "url": "https://clk.tradedoubler.com/click?p=284745&a=3480952",
+        "image": "https://imp.tradedoubler.com/imp?type(img)g(25671510)a(3480952)"
+      }
+    },
+    {
+      "title": "L'errore che può rovinarvi la vacanza (e il portafoglio)",
+      "content": "C'è un ultimo, fondamentale, pezzo del puzzle strategico. Guardando la scomposizione dei costi, c'è una voce di 60€ che potrebbe sembrare trascurabile. È la voce dedicata alla connettività (eSIM) e all'**Assicurazione Medica**. Lasciate che vi sveli un segreto che molti ignorano: **L'Albania è EXTRA-UE**. Significa che la vostra rassicurante tessera sanitaria italiana qui non ha alcun valore. Se per l'emozione (o per una buca) prendete una storta camminando per i vicoli di Berat, o se il sole di agosto vi gioca un brutto scherzo, l'unica opzione è la clinica privata. E i costi, vi assicuro, sono da capogiro. Da *Couple Strategist*, il mio compito è proteggere non solo il vostro romanticismo, ma anche le vostre finanze. Spendere 2.000€ per un road trip magnifico e rischiare di indebitarsi per aver risparmiato 30€ di assicurazione è una follia. Noi viaggiamo (e facciamo viaggiare) solo con **Heymondo**: pagano direttamente le strutture ospedaliere senza farvi anticipare un centesimo, e con l'app potete consultare un medico in italiano direttamente dal Wi-Fi della vostra guesthouse. Zero stress, massima protezione.",
+      "image": "/images/albania-2.jpg",
+      "widget": {
+        "type": "button",
+        "label": "ACQUISTA ORA LA TUA ESIM SAILY ➜",
+        "subtitle": "Usa il codice FABIOI3455 per 5$ di sconto sul tuo primo acquisto",
+        "link": "https://go.saily.site/aff_ad?campaign_id=2&aff_id=13541&hostNameId=23945&source=BLOGTIRANA"
+      }
+    },
+    {
+      "title": "",
+      "content": "",
+      "widget": {
+        "type": "banner",
+        "label": "Assicurazione Viaggio Heymondo Sconto 10%",
+        "url": "https://heymondo.it/?utm_medium=Afiliado&utm_source=30SECONDSTOGUIDE&utm_campaign=PRINCIPAL&cod_descuento=30SECONDSTOGUIDE&ag_campaign=BLOGTIRANA&agencia=JzPWeAXXi7s0b94oPYh2FmTwaWKFpiCp1a8PkqOn&redirect=TEMPORAL",
+        "image": "/images/heymondo-banner-standard.png"
+      }
+    },
+    {
+      "title": "Pronti a partire?",
+      "content": "L'Albania è pronta a regalarvi uno dei road trip più belli della vostra vita di coppia. Richiede solo un pizzico di astuzia nella scelta delle tappe e molta onestà sui costi reali. Siete pronti a mettervi al volante?",
+      "widget": {
+        "type": "button",
+        "label": "SCARICA IL PDF CON L'ITINERARIO COMPLETO ➜",
+        "subtitle": "Tutte le tappe e i costi del road trip in Albania",
+        "link": "/downloads/Itinerary_Albania.pdf"
+      }
+    }
+  ]
+}
 ]
