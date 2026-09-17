@@ -1423,5 +1423,80 @@
       }
     }
   ]
+},
+{
+  "slug": "madrid-in-giornata-famiglia-450-euro",
+  "section": "ai-experiment",
+  "section_label": "Esperimenti AI",
+  "category": "family-edition",
+  "category_label": "Family Edition",
+  "meta_title": "Madrid in Giornata a 450€: L'Itinerario AI per la Famiglia",
+  "meta_description": "Un day-trip a Madrid per 4 persone senza bagagli e senza hotel. 15 ore tra Puerta del Sol, bocadillos e Parco del Retiro. L'esperimento di 30SecondsToGuide.",
+  "hero_image": "/images/madrid-daytrip-hero.jpg",
+  "hero_title": "FOLLIA D'AUTUNNO: MADRID IN GIORNATA",
+  "intro_text": "Viaggio in giornata a Madrid in famiglia: l'itinerario perfetto senza pagare l'hotel.",
+  "author": "Martina - Chief Family Officer",
+  "date": "17 Settembre 2026",
+  "read_time": "6 min read",
+  "sections": [
+    {
+      "title": "1. 🧳 Pazzi da legare o geni del risparmio?",
+      "content": "Nell'immaginario collettivo, portare i figli all'estero significa preparare valigie pesanti il giorno prima e svuotare il conto in banca per l'hotel. Noi siamo pronti a ribaltare le regole. Il nostro Itinerary Wizard ci ha lanciato una provocazione che abbiamo deciso di cogliere per il prossimo 28 novembre: un volo di andata e ritorno in giornata per Madrid, sfidando l'autunno spagnolo con due adulti, Laura (15 anni, in piena fase adolescenziale) e Tommaso (7 anni, energia pura). Il tutto con un budget tassativo di **450€ per l'intera famiglia**. Niente bagagli da stiva, zero check-in in albergo: ci stiamo preparando per 15 ore di pura immersione madrilena.",
+      "image": "/images/madrid-daytrip-1.jpg"
+    },
+    {
+      "title": "2. 🚇 Alba a Milano, colazione a Puerta del Sol",
+      "content": "La sveglia suonerà nel cuore della notte. Il volo Wizzair decollerà da Milano alle 06:40, un orario che Laura accoglierà con un prevedibile sbuffo, mentre Tommaso sarà già elettrizzato all'idea di salire su un aereo prima ancora che sorga il sole. L'impatto con Madrid, però, cancellerà ogni sonnolenza. Atterrati al Barajas, salteremo sulla Linea 8 della metropolitana: in meno di mezz'ora l'aria frizzantina di fine novembre ci accoglierà in Plaza Mayor. La città si starà svegliando, i caffè inizieranno a sollevare le serrande e noi saremo già pronti a scattare la foto di rito a Puerta del Sol sotto la statua dell'Orso e del Corbezzolo, la prima tappa a costo zero del nostro piano."
+    },
+    {
+      "title": "3. 🦑 L'arte del Bocadillo (e la pace familiare)",
+      "content": "Far camminare i ragazzi per ore richiederà sostentamento costante e strategie mirate. Intorno all'ora di pranzo, invece di infilarci in un ristorante formale con tempi di attesa che spazientirebbero Tommaso, ci tufferemo nei vicoli attorno a Plaza Mayor. È qui che metteremo in pratica la tattica del **bocadillo de calamares**. Con circa 4-6€ a panino, addenteremo queste baguette calde e croccanti ripiene di anelli di calamari fritti. È lo street food madrileno per eccellenza: veloce, incredibilmente gustoso e capace di mettere d'accordo i gusti difficili di un bambino e l'appetito di un'adolescente.",
+      "image": "/images/madrid-daytrip-2.jpg"
+    },
+    {
+      "title": "4. 🚣 Foliage e remi: La magia del Retiro",
+      "content": "Il primo pomeriggio è il momento critico di ogni gita in famiglia. Le gambe iniziano a cedere e serve una pausa. La mossa vincente suggerita dal nostro itinerario è il Parco del Retiro. In autunno, questo immenso polmone verde si tinge di sfumature ocra, ruggine e oro. La vera svolta strategica per la nostra spedizione costerà solo **10€**: il noleggio della barchetta a remi sul laghetto artificiale. Mentre Tommaso si esalterà a remare in tondo e Laura cercherà lo scorcio perfetto per i suoi social davanti al Palazzo di Cristallo, noi adulti ci godremo venti minuti di puro relax seduti a poppa."
+    },
+    {
+      "title": "5. 🌇 Tramonti egizi e fiumi di cioccolata calda",
+      "content": "Mentre la luce dorata dell'autunno inizierà a calare, ci sposteremo verso il Templo de Debod, un autentico tempio egizio donato alla Spagna, situato su un'altura che regala uno dei tramonti più suggestivi d'Europa. L'aria si farà più fredda, e diventerà il pretesto perfetto per la merenda definitiva: ci infileremo nella storica Chocolatería San Ginés. Un tavolo di marmo, tazze di cioccolata densa e fumante e un vassoio di churros caldi da intingere. Con le ultime energie, passeggeremo sotto le luci al neon della Gran Vía prima di riprendere la via dell'aeroporto.",
+      "image": "/images/madrid-daytrip-3.jpg"
+    },
+    {
+      "title": "6. ⏱️ I \"Salvavita\" del Day-Trip: Il tempo è l'unica valuta",
+      "content": "In una maratona pianificata di 15 ore all'estero, il vero nemico non è il budget, ma l'orologio. Ogni minuto passato in fila sarà un minuto rubato al viaggio. In Spagna il roaming dati europeo è gratuito e la Tessera Sanitaria ci coprirà per le emergenze mediche pubbliche. Quello che ci serve davvero per preparare questa impresa è blindare la logistica.\n\n**L'incastro aereo perfetto:** Abbiamo dovuto trovare la combinazione esatta 06:40 - 23:10. Affidarsi a un motore di ricerca flessibile è vitale per intercettare queste esatte finestre temporali a prezzi stracciati.",
+      "widget": {
+        "type": "script",
+        "label": "Verifica Voli in Tempo Reale",
+        "scriptUrl": "https://tpemb.com/content?currency=eur&trs=476244&shmarker=686826&powered_by=true&locale=it&from_name=milan_it&to_name=madrid_es&departure=2026-11-28&return=2026-11-28&show_header=true&limit=3&primary_color=00AE98&results_background_color=FFFFFF&form_background_color=FFFFFF&campaign_id=111&promo_id=4478"
+      }
+    },
+    {
+      "title": "",
+      "content": "**L'arma anti-coda:** Il nostro itinerario privilegia piazze e parchi ad accesso libero. Ma se Tommaso pretenderà di entrare allo Stadio Bernabéu o Laura vorrà visitare il Palazzo Reale, mettersi in fila alla biglietteria significherà perdere l'aereo di ritorno. I biglietti ad accesso prioritario sono un investimento obbligatorio che abbiamo messo in conto.",
+      "widget": {
+        "type": "banner-gyg",
+        "label": "Ingressi Prioritari Madrid",
+        "image": "/banners/GYG-banner.png",
+        "links": [
+          { "name": "Stadio Bernabéu", "url": "https://gyg.me/f2jpyvR5" },
+          { "name": "Palazzo Reale", "url": "https://gyg.me/AXTnFmri" },
+          { "name": "Bus Panoramico", "url": "https://gyg.me/8ULE4a6o" }
+        ]
+      }
+    },
+    {
+      "title": "7. 💰 Il Verdetto Preventivo: I conti della follia",
+      "content": "Alle 23:10, mentre l'aereo toccherà la pista di Milano, immagino già che guarderò Laura e Tommaso crollati addormentati sui sedili. Saremo stanchi morti, ma avremo vinto la nostra sfida finanziaria. \n\nEcco come abbiamo calcolato di polverizzare il nostro budget di **450€**:\n*   **220€** per i voli di andata e ritorno in quattro.\n*   **65€** di trasporti locali in metropolitana per l'intera giornata.\n*   **120€** di cibo: bocadillos a pranzo, tapas in piedi, acqua e l'immancabile merenda a base di churros.\n*   **10€** per il noleggio della barchetta al Retiro.\n*   **35€** di budget residuo, che stiamo tenendo da parte come cuscinetto da reinvestire nei pass \"salta-fila\".\n\nTornare a casa a mezzanotte sarà faticoso, ma l'entusiasmo di vivere un'intera capitale europea in un giorno solo ripagherà tutto. Questo esperimento dimostrerà che non servono ponti infiniti o capitali immensi per far respirare aria nuova alla famiglia. Bastano una sveglia all'alba, scarpe comode e tanta voglia di viaggiare.",
+      "widget": {
+        "type": "button",
+        "label": "Scarica l'Itinerario Madrid in Giornata",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Madrid.pdf",
+        "icon": "🇪🇸",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
+      }
+    }
+  ]
 }
 ]
