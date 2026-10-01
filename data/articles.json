@@ -1578,9 +1578,11 @@
       "content": "Il Wizard ha elaborato questo itinerario con un budget di **8.000€ per due persone**, definendolo \"Più che adeguato\". Non si tratta di un viaggio al risparmio, ma di un'esperienza ampiamente finanziabile dove comfort, ottima cucina e sicurezza sono la priorità assoluta.\n\n- La stima include **3.400€** per la totale copertura dei voli (circa 2.200€ per l'intercontinentale e 1.200€ per quelli domestici).\n- Sono stati calcolati **1.470€** dedicati esclusivamente a confortevoli hotel a Rio e pittoresche 'pousadas' di fascia alta nel nord.\n- Il budget prevede **600€** per esplorare senza restrizioni la ricca gastronomia locale, stimando circa 60€ al giorno in due per caipirinhas, churrasco e street food.\n- Aggiungendo i trasferimenti locali (300€), le escursioni guidate (500€), e i fondamentali servizi di eSIM (50€) e Assicurazione (130€), il totale effettivo si ferma a **7.800€**.\n\nQuesto lascia un morbido margine di 200€, perfetti per gli imprevisti o per concedersi quell'ultimo cocktail a Ipanema e un po' di shopping finale a Rio prima del volo di ritorno. Il Brasile è pronto a regalarvi l'avventura più bella della vostra vita, con la certezza di avere ogni dettaglio sotto controllo.",
       "widget": {
         "type": "button",
-        "label": "SCARICA IL PDF CON L'ITINERARIO COMPLETO ➜",
-        "subtitle": "Tutte le tappe e i costi del viaggio in Brasile",
-        "link": "/downloads/Itinerary_Brasile.pdf"
+        "label": "Scarica l'Itinerario per il Brasile",
+        "subtitle": "Generato da AI (Itinerary Wizard)",
+        "url": "/downloads/Itinerary_Brasile.pdf",
+        "icon": "BR",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     }
   ]
