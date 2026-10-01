@@ -1581,7 +1581,7 @@
         "label": "Scarica l'Itinerario per il Brasile",
         "subtitle": "Generato da AI (Itinerary Wizard)",
         "url": "/downloads/Itinerary_Brasile.pdf",
-        "icon": "BR",
+        "icon": "📄",
         "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     }
