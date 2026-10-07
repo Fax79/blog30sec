@@ -1676,7 +1676,7 @@
         "type": "button",
         "label": "SCARICA L'ITINERARIO SICILIA EST (PDF) ➜",
         "subtitle": "Il percorso Etna e Barocco",
-        "url": "/downloads/Itinerary_Sicilia_orientale.pdf"
+        "url": "/downloads/Itinerary_Sicilia_orientale.pdf",
         "icon": "📄",
         "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
@@ -1688,7 +1688,7 @@
         "type": "button",
         "label": "SCARICA L'ITINERARIO SICILIA OVEST (PDF) ➜",
         "subtitle": "Il percorso Arabo-Normanno",
-        "url": "/downloads/Itinerary_Sicilia_occidentale.pdf"
+        "url": "/downloads/Itinerary_Sicilia_occidentale.pdf",
         "icon": "📄",
         "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
