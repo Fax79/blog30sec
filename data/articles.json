@@ -1722,7 +1722,7 @@
         "type": "button",
         "label": "PRENOTA ORA L'AUTO CON SIXT ➜",
         "subtitle": "Tariffe esclusive prenotando in anticipo",
-        "link": "https://clk.tradedoubler.com/click?p=284745&a=3480952",
+        "url": "https://clk.tradedoubler.com/click?p=284745&a=3480952",
         "image": "https://imp.tradedoubler.com/imp?type(img)g(25671510)a(3480952)"
       }
     },
@@ -1748,7 +1748,8 @@
         "type": "button",
         "label": "BLOCCA IL TUO HOTEL CON BEST WESTERN ➜",
         "subtitle": "Tariffe vantaggiose con cancellazione gratuita",
-        "link": "https://clk.tradedoubler.com/click?p=327795&a=3480952&url=https%3A%2F%2Fbook.bestwestern.it%2FEN%2Fhotel_in_Massafra_98424.aspx%3FarrivalDate%3D20270508%26departureDate%3D20270513%26room%3D1%26adults%5B1%5D%3D2"
+        "url": "https://clk.tradedoubler.com/click?p=327795&a=3480952&url=https%3A%2F%2Fbook.bestwestern.it%2FEN%2Fhotel_in_Massafra_98424.aspx%3FarrivalDate%3D20270508%26departureDate%3D20270513%26room%3D1%26adults%5B1%5D%3D2",
+        "image": "https://book.bestwestern.it/IT/immagini/98424/000_Exterior/mgp/esterni-del-best-western-plus-hotel-massafra---massafra---98424.jpg"
       }
     },
     {
