@@ -1781,7 +1781,9 @@
         "type": "button",
         "label": "SCARICA L'ITINERARIO PUGLIA 5 GIORNI (PDF) ➜",
         "subtitle": "La Valle d'Itria e la costa",
-        "link": "/downloads/Itinerary_Puglia_5.pdf"
+        "url": "/downloads/Itinerary_Puglia_5.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     },
     {
@@ -1791,7 +1793,9 @@
         "type": "button",
         "label": "SCARICA L'ITINERARIO PUGLIA 7 GIORNI (PDF) ➜",
         "subtitle": "Aggiunta Matera e Polignano",
-        "link": "/downloads/Itinerary_Puglia_7.pdf"
+        "url": "/downloads/Itinerary_Puglia_7.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     },
     {
@@ -1801,7 +1805,9 @@
         "type": "button",
         "label": "SCARICA L'ITINERARIO PUGLIA 10 GIORNI (PDF) ➜",
         "subtitle": "La spinta fino al Salento",
-        "link": "/downloads/Itinerary_Puglia_10.pdf"
+        "url": "/downloads/Itinerary_Puglia_10.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     }
   ]
