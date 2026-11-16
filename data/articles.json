@@ -1908,8 +1908,9 @@
       "widget": {
         "type": "button",
         "label": "SCARICA IL TRAVEL PLAN MACEDONIA DEL NORD (PDF) ➜",
-        "subtitle": "Itinerario completo 7 giorni e budget dettagliato",
-        "link": "/downloads/Itinerary_Macedonia_del_Nord.pdf"
+        "url": "/downloads/Itinerary_Macedonia_del_Nord.pdf",
+        "icon": "📄",
+        "colorClass": "bg-red-50 text-red-700 border border-red-200"
       }
     }
   ]
